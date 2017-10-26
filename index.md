@@ -11,7 +11,7 @@ test my main page
 
 <myxml>
    <meta charset="utf-8">
-   <title>my plot</title>
+<!--    <title>my plot</title> -->
    
    <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
    <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
@@ -25,7 +25,7 @@ test my main page
             height: 100%;
           }
           body {
-            width: 90%;
+            width: 50%;
             height: 100%;
             margin: auto;
           }
