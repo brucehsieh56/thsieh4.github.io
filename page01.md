@@ -22,14 +22,6 @@ permalink: /page01/
     <link rel="import" href="/page03.html">
   </p>
   
-  
-  <script src="jquery.js"></script>
-  <script>
-      $(function(){
-          $("#includedContent").load("/page03.html");
-      });
-  </script>
-  
 </myxml>
 
 
