@@ -15,7 +15,11 @@ permalink: /page01/
   <p>
     hello
     <link rel="import" href="/page02.html">
+  
   </p>
+  
+  
+  <link rel="import" href="https://thsieh4.github.io/page02.html">
   
   <p>
     hey
