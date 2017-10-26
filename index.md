@@ -27,8 +27,8 @@ test my main page
             height: 100%;
           }
           body {
-            width: 50%;
-            height: 10%;
+            width: 100%;
+            height: 100%;
             margin: auto;
           }
    </style>
