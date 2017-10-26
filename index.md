@@ -6,7 +6,7 @@ test my main page
 
 [go to page01](https://thsieh4.github.io/page01/)
 
-[go to page02](https://thsieh4.github.io/page02.html/)
+[go to page02](https://thsieh4.github.io/page02.html)
 
 
 <myxml>
