@@ -19,7 +19,7 @@ permalink: /page01/
   
   <p>
     hey
-    <link rel="import" href="/page03.html">
+    <link rel="import" href="https://thsieh4.github.io/page02.html">
   </p>
   
 </myxml>
