@@ -23,12 +23,12 @@ test my main page
    
    <style>
           html {
-            width: 50%;
+            width: 100%;
             height: 100%;
           }
           body {
             width: 50%;
-            height: 100%;
+            height: 10%;
             margin: auto;
           }
    </style>
