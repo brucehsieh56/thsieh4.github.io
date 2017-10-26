@@ -12,13 +12,16 @@ permalink: /page01/
     test
   </head>
   
-  <head>
-    <link rel="import" href="/path/to/imports/stuff.html">
-  </head>
-  
-  <head>
+  <p>
+    hello
     <link rel="import" href="/page02.html">
-  </head>
+  </p>
+  
+  <p>
+    hey
+    <link rel="import" href="/page03.html">
+  </p>
+  
 </myxml>
 
 
