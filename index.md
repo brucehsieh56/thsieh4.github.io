@@ -8,6 +8,8 @@ test my main page
 
 [go to page02](https://thsieh4.github.io/page02.html)
 
+[go to page03](https://thsieh4.github.io/page03.html)
+
 
 <myxml>
    <meta charset="utf-8">
