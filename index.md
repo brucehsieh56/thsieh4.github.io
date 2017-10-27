@@ -10,6 +10,8 @@ test my main page
 
 [go to page03](https://thsieh4.github.io/page03.html)
 
+[go to boostrap page](https://thsieh4.github.io/bootstrap.html)
+
 
 <myxml>
    <meta charset="utf-8">
