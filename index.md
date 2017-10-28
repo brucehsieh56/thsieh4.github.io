@@ -6,3 +6,5 @@ title: MAIN page
 test my main page
 
 {% include header.html %}
+
+{% include navbar.html %}
