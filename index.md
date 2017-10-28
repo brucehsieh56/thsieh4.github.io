@@ -9,7 +9,7 @@ The second option is affix it to the top of the page, so it will not disappear w
 </div>
 
 <div class="col-lg-auto">
-  {% include page02.html %}
+  {% include bokeh01.html %}
 </div>
 
 </div>
