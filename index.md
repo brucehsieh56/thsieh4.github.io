@@ -2,4 +2,8 @@
 
 The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page.
 
-{% include page02.html %}
+<div class="col-lg-3></div>
+<div class="col-lg-auto>
+  {% include page02.html %}
+</div>
+<div class="col-lg-3></div>
