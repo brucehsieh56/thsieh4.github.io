@@ -2,20 +2,13 @@
 layout: default
 title: MAIN page
 ---
-
-This should be Head
-
-{% include head.html %}
-
-test my main page
-
-{% include header.html %}
-
-This should be navbar
-
 {% include navbar.html %}
+## Above should be navbar
+
+- test my webpage
+- hello
+- yea
 
 
-Footer here
-
+## Footer below
 {% include footer.html %}
