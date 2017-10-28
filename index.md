@@ -3,7 +3,9 @@ layout: default
 title: MAIN page
 ---
 
+This should be Head
 
+{% include head.html %}
 
 test my main page
 
