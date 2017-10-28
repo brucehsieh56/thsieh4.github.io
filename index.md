@@ -14,3 +14,8 @@ test my main page
 This should be navbar
 
 {% include navbar.html %}
+
+
+Footer here
+
+{% include footer.html %}
