@@ -13,7 +13,7 @@ title: MAIN page
 - [page03](https://thsieh4.github.io/page03)
 
 ### Bokeh
-
+{% include page02.html %}
 
 
 ## Footer below
