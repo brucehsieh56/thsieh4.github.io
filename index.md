@@ -15,6 +15,12 @@
   </div>
 </div>
 
+<div class="row">
+  <div class="col-auto">
+    <h2> Second Chart </h2>
+  </div>
+</div>
+
 
 <div class="row">
 
