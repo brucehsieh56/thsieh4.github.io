@@ -6,7 +6,7 @@ permalink: /posts/post_home/
 
 
 # Data Visualization
-aaa
+bbbbbbbb
 
 aa
 
@@ -15,5 +15,4 @@ aa
 s = "Python syntax highlighting"
 print s
 ```
-
-vvvv
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/languages/go.min.js"></script>
