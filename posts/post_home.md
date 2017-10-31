@@ -10,3 +10,5 @@ permalink: /posts/post_home/
   </code></pre>
 </div>  
 
+
+<pre> print </pre>
