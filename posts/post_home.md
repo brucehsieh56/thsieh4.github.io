@@ -12,3 +12,8 @@ permalink: /posts/post_home/
 
 
 <pre> print </pre>
+
+```python
+s = "Python syntax highlighting"
+print s
+```
