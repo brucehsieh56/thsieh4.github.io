@@ -9,6 +9,8 @@ permalink: /posts/post_home/
 aaa
 
 aa
+
+<a name='opt1'></a>
 ```markdown
 Syntax highlighted code block
 
@@ -26,3 +28,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+<a name='opt2'></a>
+
+vvvv
