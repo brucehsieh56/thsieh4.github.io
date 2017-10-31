@@ -15,6 +15,9 @@ permalink: /posts/post_home/
         s = "Python syntax highlighting"
         print s
       </pre>
+      <p>
+        The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place. This is achieved by adding the navbar-fixed-top class.The second option is affix it to the top of the page, so it will not disappear when the user scrolls, but rather stay in place.
+      </p>
     </div>
   </div>
 
