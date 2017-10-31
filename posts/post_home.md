@@ -8,12 +8,11 @@ permalink: /posts/post_home/
 
 <head>
 <style>
-  body {background-color: powderblue;}
   h1   {color: blue;}
   p    {color: red;}
 
 
-  .pre {
+  pre {
     border: 1px solid #d5d5e9;
     background-color: #eef;
     padding: 8px 12px;
