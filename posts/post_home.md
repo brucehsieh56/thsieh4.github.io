@@ -6,14 +6,19 @@ permalink: /posts/post_home/
 
 
 <div class="row">
-  <div class="col">
+  <div class="col-auto">
     <h1> Data Visualization </h1>
+    
     <div class="row">
-      <div class="col">
-        <h3> Interactive Data Visualization on Geographical Map using Bokeh </h3>
-        <pre>print</pre>
+      <div class="col-auto">
+        <h4> Interactive Data Visualization on Geographical Map using Bokeh </h3>
+        ```python
+        s = "Python syntax highlighting"
+        print s
+        ```
       </div>
     </div>
+    
   </div>
 </div>
 
@@ -21,7 +26,4 @@ permalink: /posts/post_home/
 
 
 
-```python
-s = "Python syntax highlighting"
-print s
-```
+
