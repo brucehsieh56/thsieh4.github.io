@@ -10,7 +10,4 @@ permalink: /posts/post_home/
   </div>
 </div>
 
-<div class="row">
-  <p> article </p>
-
-</div>
+# article
