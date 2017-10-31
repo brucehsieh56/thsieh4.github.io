@@ -1,5 +1,5 @@
-.post pre,
-.post code {
+pre,
+code {
   border: 1px solid #d5d5e9;
   background-color: #eef;
   padding: 8px 12px;
@@ -10,4 +10,10 @@
   overflow:scroll;
 }
 
-.post code { padding: 1px 5px; }
+code { padding: 1px 5px; }
+
+pre code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
