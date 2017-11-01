@@ -6,7 +6,7 @@ permalink: /posts/post_home/
 
 ## Data Visualization
 
-- Interactive Data Visualization on Geographical Map using Bokeh
+- [Interactive Data Visualization on Geographical Map using Bokeh](/posts/DataVisualization/2017Nov01)
 - Interactive Data Visualization on Geographical Map using Bokeh
 - Interactive Data Visualization on Geographical Map using Bokeh
 
