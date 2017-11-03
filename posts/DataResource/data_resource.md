@@ -5,6 +5,9 @@ permalink: /posts/DataResource/
 ---
 
 ## Data Resource
+### Musical
+- [Spotify Chart](https://spotifycharts.com/regional)
+
 ### Agricultural
 - [USDA's National Agricultural Statistics Service, North Carolina Field Office](https://quickstats.nass.usda.gov/)
 
