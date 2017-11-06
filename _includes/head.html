@@ -22,15 +22,21 @@
     <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
     <script type="text/javascript"> Bokeh.set_log_level("info"); </script>
     
-    <!-- Google Material Icons -->
+    <!-- Google Material Icons & Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik" rel="stylesheet">
     
-    <!-- Code Block Style-->
+    <!--  Style-->
     <style>
+        h1 {
+            font-family: 'Rubik', sans-serif;}
         h3 {
             margin-top: 1em;}
-        p {
+        p { 
+            font-family: 'Inconsolata', monospace;
             text-align: justify;}
+        
+        /* Code Block */
         pre {
             border: 1px solid #d5d5e9;
             background-color: #eef;
@@ -40,9 +46,12 @@
             border-radius: 3px;
             font-size: 12px;
             overflow:scroll;}
+        
+        /* Image scrolling */
         div.scroll {
             margin-bottom: 10px;
             overflow-x:scroll;}
+        
         blockquote {
             border-left: 4px solid #e8e8e8;
             padding-left: 10px;
