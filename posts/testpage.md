@@ -38,7 +38,3 @@ In this assignment you will practice putting together a simple image classificat
   </div>
   
 </div>
-
-<div class="row">
-  {% include GetTopTracksFromSpotifyChartAndAudioFeaturesFromSpotifyAPI.ipynb %}
-</div>
