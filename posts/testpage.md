@@ -5,8 +5,8 @@ permalink: /posts/testpage/
 ---
 
 <div class="row">
-  <div class="col order-1">
-    <div class="card " style="width: 20rem; height: 25rem;">
+  <div class="col-order-1 mb-1">
+    <div class="card" style="width: 20rem; height: 20rem;">
       <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">Top Song Prediction</h4>
@@ -20,8 +20,8 @@ permalink: /posts/testpage/
     </div>
   </div>  
 
-  <div class="col order-2">
-    <div class="card" style="width: 20rem; height: 25rem;">
+  <div class="col-order-2 mb-1">
+    <div class="card" style="width: 20rem; height: 20rem;">
       <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">Card 2</h4>
