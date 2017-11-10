@@ -7,16 +7,16 @@ permalink: /posts/testpage/
 <div class="row">
   <div class="col-md-6">
     <div class="card" style="height: 22rem;">
-      <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
+      <img class="card-img-top" src="/figure/demo.png" alt="boxplot">
       <div class="card-body">
-        <h4 class="card-title">Top Song Prediction</h4>
+        <h4 class="card-title">Spotify Top 200 Tracks Prediction</h4>
         <span class="badge badge-dark">TEAM PROJECT</span>
         <span class="badge badge-info">FALL 2017</span>
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%">75%</div>
         </div>
-        <p class="card-text">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
-        <a href="https://github.com/thsieh4/CSC522_project" class="btn btn-primary">VISIT SITE</a>
+        <p class="card-text text-left">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
+        <a href="https://github.com/thsieh4/CSC522_project" class="btn btn-dark">Visit Site</a>
       </div>
     </div>
   </div>  
@@ -31,7 +31,7 @@ permalink: /posts/testpage/
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">20%</div>
         </div>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-dark">Go somewhere</a>
       </div>
     </div>
