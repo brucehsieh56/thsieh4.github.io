@@ -4,30 +4,33 @@ title: Test Page
 permalink: /posts/testpage/
 ---
 
-<div class="col-5">
-  <div class="card" style="width: 20rem; height: 20 rem;">
-    <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Top Songs Prediction</h4>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%">75%</div>
+<div class="row">
+  <div class="col-5">
+    <div class="card" style="width: 20rem; height: 20rem;">
+      <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Top Song Prediction</h4>
+        <span class="badge badge-info">TEAM PROJECT</span>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%">75%</div>
+        </div>
+        <p class="card-text">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
+        <a href="https://github.com/thsieh4/CSC522_project" class="btn btn-primary">VISIT SITE</a>
       </div>
-      <p class="card-text">A binary classification model capable of predicting whether a song will be listed in Top 200 on Spotify.</p>
-      <a href="#" class="btn btn-primary">Link</a>
     </div>
-  </div>
-</div>  
+  </div>  
 
-<div class="col-5">
-  <div class="card" style="width: 20rem;">
-    <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
-    <div class="card-body">
-      <h4 class="card-title">Card 2</h4>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">20%</div>
+  <div class="col-5">
+    <div class="card" style="width: 20rem;">
+      <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">Card 2</h4>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">20%</div>
+        </div>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 </div>
