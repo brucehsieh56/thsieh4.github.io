@@ -16,14 +16,14 @@ permalink: /posts/testpage/
           <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%">75%</div>
         </div>
         <p class="card-text text-left">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
-        <a href="https://github.com/thsieh4/CSC522_project" class="btn btn-light btn-sm active">Visit Site</a>
+        <a href="https://github.com/thsieh4/CSC522_project" class="btn btn-dark btn-sm active">Visit Site</a>
       </div>
     </div>
   </div>  
 
   <div class="mb-2 col-md-6">
     <div class="card" style="height: 24rem;">
-      <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
+      <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap" height="200">
       <div class="card-body">
         <h4 class="card-title">123</h4>
         <span class="badge badge-dark">TEAM PROJECT</span>
@@ -32,7 +32,7 @@ permalink: /posts/testpage/
           <div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">20%</div>
         </div>
         <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-light btn-sm active">Visit Site</a>
+        <a href="#" class="btn btn-dark btn-sm active">Visit Site</a>
       </div>
     </div>
   </div>
