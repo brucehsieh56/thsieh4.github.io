@@ -6,7 +6,7 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="col-md-6">
-    <div class="card" style="width: 20rem; height: 22rem;">
+    <div class="card" style="height: 22rem;">
       <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">Top Song Prediction</h4>
@@ -22,7 +22,7 @@ permalink: /posts/testpage/
   </div>  
 
   <div class="col-md-6">
-    <div class="card" style="width: 20rem; height: 22rem;">
+    <div class="card" style="height: 22rem;">
       <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">123</h4>
