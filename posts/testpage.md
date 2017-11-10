@@ -5,7 +5,7 @@ permalink: /posts/testpage/
 ---
 
 <div class="row">
-  <div class="col-order-1 mb-1.5 col-sm-6">
+  <div class="col-order-1 mb-1.5 col-sm-order-1">
     <div class="card" style="width: 20rem; height: 22rem;">
       <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
       <div class="card-body">
@@ -21,11 +21,11 @@ permalink: /posts/testpage/
     </div>
   </div>  
 
-  <div class="col-order-2 mb-1.5 col-sm-6">
+  <div class="col-order-2 mb-1.5 col-sm-order-2">
     <div class="card" style="width: 20rem; height: 22rem;">
       <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
       <div class="card-body">
-        <h4 class="card-title">Card 33</h4>
+        <h4 class="card-title">Card 44</h4>
         <span class="badge badge-info">TEAM PROJECT</span>
         <span class="badge badge-dark">SPRING 2017</span>
         <div class="progress">
