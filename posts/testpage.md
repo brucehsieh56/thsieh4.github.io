@@ -4,7 +4,7 @@ title: Test Page
 permalink: /posts/testpage/
 ---
 
-<div class="col-6">
+<div class="col-5">
   <div class="card" style="width: 20rem; height: 20 rem;">
     <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
     <div class="card-body">
@@ -12,13 +12,13 @@ permalink: /posts/testpage/
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%">75%</div>
       </div>
-      <p class="card-text">The idea is to build a binary classification model having a good performance when predicting whether a song will be listed in Top 200 on Spotify.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <p class="card-text">A binary classification model capable of predicting whether a song will be listed in Top 200 on Spotify.</p>
+      <a href="#" class="btn btn-primary">Link</a>
     </div>
   </div>
 </div>  
 
-<div class="col-6">
+<div class="col-5">
   <div class="card" style="width: 20rem;">
     <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
     <div class="card-body">
