@@ -7,9 +7,9 @@ permalink: /posts/testpage/
 <div class="row">
   <div class="mb-4 col-md-6">
     <div class="card" style="height: 30rem;">
-      <h4 class="card-header" style="background-color:white;">Spotify Top 200 Tracks Prediction</h4>
+      <h4 class="card-header" style="color:#5a7d8c;background-color:#a3edf3;">Spotify Top 200 Tracks Prediction</h4>
       <div class="card-body">
-        <div class="progress">
+        <div class="progress mb-1">
           <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:78%">78%</div>
         </div>
         <img class="card-img-top" src="/figure/demo.png">
@@ -22,6 +22,9 @@ permalink: /posts/testpage/
           <span class="badge badge-info">Fall 2017</span>
           <span class="badge badge-secondary">Machine Learning</span>
           <span class="badge badge-secondary">Data Visualization</span>
+          <span class="badge badge-success">Python</span>
+          <span class="badge badge-primary">scikit-learn</span>
+          <span class="badge badge-primary">pandas</span>
         </h6>
       </div>
     </div>
@@ -29,7 +32,7 @@ permalink: /posts/testpage/
 
   <div class="mb-4 col-md-6">
     <div class="card" style="height: 30rem;">
-      <h4 class="card-header" style="color:white;background-color:#2a3e51;">Single View Metrology with Line Segment Detector</h4>
+      <h4 class="card-header" style="color:#5a7d8c;background-color:#a3edf3;">Single View Metrology with Line Segment Detector</h4>
       <div class="card-body">
         <div class="container" style="width: 80%;">
           <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif">
