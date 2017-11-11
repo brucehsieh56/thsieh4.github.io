@@ -16,13 +16,13 @@ permalink: /posts/testpage/
         </div>
       </div>
       <div class="card-footer">
-        <p>
+        <h6>
           <i class="material-icons md-16">loyalty</i>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">FALL 2017</span>
           <span class="badge badge-secondary">MACHINE LEARNING</span>
           <span class="badge badge-secondary">DATA VISUALIZATION</span>
-        </p>
+        </h6>
       </div>
     </div>
   </div>  
