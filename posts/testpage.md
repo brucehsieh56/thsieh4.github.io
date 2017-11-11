@@ -6,8 +6,8 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-2 col-md-6">
-    <div class="card" style="height: 400px;">
-      <h4 class="card-header">Spotify Top 200 Tracks Prediction</h4>
+    <div class="card" style="height: 450px;">
+      <h4 class="card-header"><a href="https://github.com/thsieh4/CSC522_project">Spotify Top 200 Tracks Prediction</a></h4>
       <div class="card-body">
         <p>
           <span class="badge badge-dark">TEAM PROJECT</span>
