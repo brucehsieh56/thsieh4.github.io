@@ -8,7 +8,7 @@ permalink: /posts/testpage/
   <div class="mb-3 col-md-6">
     <div class="card" style="height: 30rem;">
       <h4 class="card-header">Spotify Top 200 Tracks Prediction</h4>
-      <div class="card-body">
+      <div class="card-body text-gray">
         <img class="card-img-top" src="/figure/demo.png">
         <p class="card-text text-left">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
         <div class="progress">
