@@ -57,10 +57,12 @@ permalink: /posts/testpage/
 
 
 <div class="row">
-  <div class="container mb-4 col-md-6">
-    <img class="card-img-top mb-2" src="/figure/demo.png" class="image">
-    <div class="middle">
-      <div class="text">Spotify Top 200 Tracks Prediction</div>
+  <div class="container">
+    <div class="mb-4 col-md-6">
+      <img class="card-img-top mb-2" src="/figure/demo.png" class="image">
+      <div class="middle">
+        <p>Spotify Top 200 Tracks Prediction</p>
+      </div>
     </div>
   </div>
 </div>  
