@@ -8,14 +8,14 @@ permalink: /posts/testpage/
   <div class="mb-2 col-md-6">
     <div class="card" style="height: 400px;">
       <h4 class="card-header">Spotify Top 200 Tracks Prediction</h4>
-      <p>
-        <span class="badge badge-dark">TEAM PROJECT</span>
-        <span class="badge badge-info">FALL 2017</span>
-      </p>
       <div class="card-body">
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%"><p>75%</p></div>
-        </div>
+        <p>
+          <span class="badge badge-dark">TEAM PROJECT</span>
+          <span class="badge badge-info">FALL 2017</span>
+        </p>
+      </div>
+      <div class="card-body">
+        <img class="card-img-top" src="/figure/demo.png" alt="boxplot">
         <p class="card-text text-left">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
       </div>
     </div>
