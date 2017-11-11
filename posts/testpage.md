@@ -6,14 +6,14 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-2 col-md-6">
-    <div class="card" style="height: 28rem;">
+    <div class="card" style="height: 600px;">
       <img class="card-img-top" src="/figure/demo.png" alt="boxplot">
       <div class="card-body">
         <h4 class="card-title" >Spotify Top 200 Tracks Prediction</h4>
-        <p>
-          <div class="progress">
+        <div class="progress">
             <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%">75%</div>
-          </div>
+        </div>
+        <p>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">FALL 2017</span>
         </p>
@@ -29,7 +29,7 @@ permalink: /posts/testpage/
     <div class="card" style="height: 28rem;">
       <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
       <div class="card-body">
-        <h4 class="card-title">321</h4>
+        <h4 class="card-title">2222333</h4>
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">20%</div>
         </div>
