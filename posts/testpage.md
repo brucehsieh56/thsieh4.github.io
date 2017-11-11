@@ -24,13 +24,11 @@ permalink: /posts/testpage/
     </div>
   </div>  
 
+  
   <div class="mb-2 col-md-6">
     <div class="card" style="height: 27rem;">
       <h4 class="card-header">Hello, this is a simple test title.</h4>
       <div class="card-body">
-        <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-secondary" style="width:100%">100%</div>
-        </div>
         <p>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">SPRING 2017</span>
