@@ -6,12 +6,12 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-2 col-md-6">
-    <div class="card" style="height: 600px;">
+    <div class="card" style="height: 450px;">
       <img class="card-img-top" src="/figure/demo.png" alt="boxplot">
       <div class="card-body">
         <h4 class="card-title" >Spotify Top 200 Tracks Prediction</h4>
         <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%">75%</div>
+          <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%"><p>75%</p></div>
         </div>
         <p>
           <span class="badge badge-dark">TEAM PROJECT</span>
@@ -37,7 +37,7 @@ permalink: /posts/testpage/
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">SPRING 2017</span>
         </p>
-        <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <div class="container text-center">
           <a href="#" class="btn btn-dark btn-sm">Visit Site</a>
         </div>
