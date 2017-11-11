@@ -57,12 +57,17 @@ permalink: /posts/testpage/
 
 
 <div class="row">
-  <div class="container">
-    <div class="mb-4 col-md-6">
-      <img class="card-img-top mb-2" src="/figure/demo.png" class="image" style="width:100%">
-      <div class="middle">
-        <p>Spotify Top 200 Tracks Prediction</p>
+  <div class="mb-4 col-md-6">
+    <div class="hovereffect">
+      <img class="img-responsive card-img-top mb-2" src="/figure/demo.png" alt="">
+      <div class="overlay">
+        <h2>Spotify Top 200 Tracks Prediction</h2>
+        <a class="info" href="#">link here</a>
       </div>
     </div>
+  </div>
+  <div class="mb-4 col-md-6">
+    <img class="card-img-top mb-2" src="/figure/demo.png" data-toggle="tooltip" title="Some tooltip text!">
+    <p>Spotify Top 200 Tracks Prediction</p>
   </div>
 </div>  
