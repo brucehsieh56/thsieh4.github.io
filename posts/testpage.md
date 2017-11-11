@@ -13,8 +13,6 @@ permalink: /posts/testpage/
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">FALL 2017</span>
         </p>
-      </div>
-      <div class="card-body">
         <img class="card-img-top" src="/figure/demo.png" alt="boxplot">
         <p class="card-text text-left">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
       </div>
