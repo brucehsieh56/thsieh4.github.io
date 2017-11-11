@@ -32,6 +32,7 @@ table, th, td, tr {
     text-align: right;
     vertical-align: center;
     padding: 2px;}
+
 tr:hover { background-color: #d4ecfe; }
 
 /* Icon */
@@ -39,6 +40,10 @@ tr:hover { background-color: #d4ecfe; }
 .material-icons.md-18 { font-size: 18px; }
 
 /* Fade Image with text */
+.container {
+    position: relative;
+    width: 50%; }
+
 .image {
   opacity: 1;
   display: block;
