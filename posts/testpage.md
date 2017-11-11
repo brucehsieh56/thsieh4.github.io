@@ -76,8 +76,4 @@ permalink: /posts/testpage/
       </div>
     </div>
   </div>
-  <div class="mb-4 col-md-6">
-    <img class="mb-2" src="/figure/demo.png" data-toggle="tooltip" title="Some tooltip text!">
-    <p>Spotify Top 200 Tracks Prediction</p>
-  </div>
 </div>  
