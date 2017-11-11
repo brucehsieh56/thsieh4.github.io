@@ -18,14 +18,13 @@ permalink: /posts/testpage/
         <div class="progress">
           <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:78%">78%</div>
         </div>
-        <div class="container text-center">
+        <div class="container text-center mt-1">
           <a href="https://github.com/thsieh4/CSC522_project" class="btn btn-dark btn-sm">Visit Site</a>
         </div>
       </div>
     </div>
   </div>  
 
-  
   <div class="mb-2 col-md-6">
     <div class="card" style="height: 30rem;">
       <h4 class="card-header">Single View Metrology with Line Segment Detector</h4>
@@ -34,7 +33,10 @@ permalink: /posts/testpage/
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">SPRING 2017</span>
         </p>
-        <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif" style="height:200px;">
+        <div class="container" style="width: 100%; height: 50%;">
+          <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif">
+        </div>
+        
         <p class="card-text text-left">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
       </div>
     </div>
