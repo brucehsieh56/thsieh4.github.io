@@ -10,6 +10,7 @@ permalink: /posts/testpage/
       <h4 class="card-header">Spotify Top 200 Tracks Prediction</h4>
       <div class="card-body">
         <p>
+          <i class="material-icons">loyalty</i>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">FALL 2017</span>
         </p>
