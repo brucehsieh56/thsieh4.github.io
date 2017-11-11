@@ -39,7 +39,7 @@ permalink: /posts/testpage/
         </div>
         <p class="card-text text-left" style="color:#f4f4f4;">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
       </div>
-      <div class="card-footer bg-dark">
+      <div class="card-footer bg-dark" style="color:#f4f4f4;">
         <h6>
           <i class="material-icons md-16">loyalty</i>
           <span class="badge badge-dark">Team Project</span>
@@ -54,3 +54,13 @@ permalink: /posts/testpage/
   </div>
   
 </div>
+
+
+<div class="row">
+  <div class="container mb-4 col-md-6">
+    <img class="card-img-top mb-2" src="/figure/demo.png" class="image">
+    <div class="middle">
+      <div class="text">Spotify Top 200 Tracks Prediction</div>
+    </div>
+  </div>
+</div>  
