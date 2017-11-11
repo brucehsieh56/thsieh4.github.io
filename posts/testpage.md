@@ -27,14 +27,14 @@ permalink: /posts/testpage/
   
   <div class="mb-2 col-md-6">
     <div class="card" style="height: 27rem;">
-      <h4 class="card-header">Hello, this is a simple test title.</h4>
+      <h4 class="card-header">Single View Metrology</h4>
       <div class="card-body">
         <p>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">SPRING 2017</span>
         </p>
-        <img class="card-img-top" src="/figure/2017Nov01_head_geo.png" alt="Card image cap">
-        <p class="card-text text-left">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif">
+        <p class="card-text text-left">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
         <div class="container text-center">
           <a href="#" class="btn btn-dark btn-sm">Visit Site</a>
         </div>
