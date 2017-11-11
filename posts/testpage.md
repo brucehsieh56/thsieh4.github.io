@@ -5,7 +5,7 @@ permalink: /posts/testpage/
 ---
 
 <div class="row">
-  <div class="mb-3 col-md-6">
+  <div class="mb-4 col-md-6">
     <div class="card" style="height: 30rem;">
       <h4 class="card-header" style="background-color:powderblue;">Spotify Top 200 Tracks Prediction</h4>
       <div class="card-body">
@@ -27,14 +27,14 @@ permalink: /posts/testpage/
     </div>
   </div>  
 
-  <div class="mb-3 col-md-6">
+  <div class="mb-4 col-md-6">
     <div class="card" style="height: 30rem;">
-      <h4 class="card-header">Single View Metrology with Line Segment Detector</h4>
+      <h4 class="card-header" style="background-color:#2a3e51;">Single View Metrology with Line Segment Detector</h4>
       <div class="card-body">
-        <div class="container" style="width: 100%; height: 30%;">
+        <div class="container" style="width: 80%;">
           <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif">
         </div>
-        <p class="card-text text-left">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
+        <p class="card-text text-left" style="color:#666666;">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
       </div>
       <div class="card-footer">
         <h6>
@@ -43,6 +43,8 @@ permalink: /posts/testpage/
           <span class="badge badge-info">Spring 2017</span>
           <span class="badge badge-secondary">Image Processing</span>
           <span class="badge badge-success">MATLAB</span>
+          <span class="badge badge-success">Python</span>
+          <span class="badge badge-primary">OpenCV</span>
         </h6>
       </div>
     </div>
