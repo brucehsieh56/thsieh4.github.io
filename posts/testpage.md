@@ -6,8 +6,8 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-4 col-md-6">
-    <div class="card" style="height: 30rem;">
-      <h4 class="card-header" style="color:#5a7d8c;background-color:#a3edf3;">Spotify Top 200 Tracks Prediction</h4>
+    <div class="card" style="height: 28rem;">
+      <h4 class="card-header" style="color:#333a40;background-color:#a3edf3;">Spotify Top 200 Tracks Prediction</h4>
       <div class="card-body">
         <div class="progress mb-1">
           <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:78%">78%</div>
@@ -31,8 +31,8 @@ permalink: /posts/testpage/
   </div>  
 
   <div class="mb-4 col-md-6">
-    <div class="card" style="height: 30rem;">
-      <h4 class="card-header" style="color:#5a7d8c;background-color:#a3edf3;">Single View Metrology with Line Segment Detector</h4>
+    <div class="card" style="height: 28rem;">
+      <h4 class="card-header" style="color:#333a40;background-color:#a3edf3;">Single View Metrology with Line Segment Detector</h4>
       <div class="card-body">
         <div class="container" style="width: 80%;">
           <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif">
