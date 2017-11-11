@@ -6,7 +6,7 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-2 col-md-6">
-    <div class="card" style="height: 29rem;">
+    <div class="card" style="height: 30rem;">
       <h4 class="card-header">Spotify Top 200 Tracks Prediction</h4>
       <div class="card-body">
         <p>
@@ -27,14 +27,14 @@ permalink: /posts/testpage/
 
   
   <div class="mb-2 col-md-6">
-    <div class="card" style="height: 29rem;">
+    <div class="card" style="height: 30rem;">
       <h4 class="card-header">Single View Metrology with Line Segment Detector</h4>
       <div class="card-body">
         <p>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">SPRING 2017</span>
         </p>
-        <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif" style="height:90%;">
+        <img class="card-img-top" src="/figure/Project_SingleViewMetrology.gif" style="height:200px;">
         <p class="card-text text-left">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
       </div>
     </div>
