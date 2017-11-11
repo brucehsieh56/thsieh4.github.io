@@ -6,21 +6,21 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-2 col-md-6">
-    <div class="card" style="height: 450px;">
+    <div class="card" style="height: 400px;">
       <img class="card-img-top" src="/figure/demo.png" alt="boxplot">
+      <h4 class="card-header">Featured</h4>
       <div class="card-body">
         <h4 class="card-title" >Spotify Top 200 Tracks Prediction</h4>
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-secondary" style="width:75%"><p>75%</p></div>
         </div>
+        <p class="card-text text-left">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
+      </div>
+      <div class="card-body">
         <p>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">FALL 2017</span>
         </p>
-        <p class="card-text text-left">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
-        <div class="container text-center">
-          <a href="https://github.com/thsieh4/CSC522_project" class="btn btn-dark btn-sm">Visit Site</a>
-        </div>
       </div>
     </div>
   </div>  
