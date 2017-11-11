@@ -16,8 +16,8 @@ permalink: /posts/testpage/
         </div>
       </div>
       <div class="card-footer">
+        <i class="material-icons md-16">loyalty</i>
         <p>
-          <i class="material-icons md-16">loyalty</i>
           <span class="badge badge-dark">TEAM PROJECT</span>
           <span class="badge badge-info">FALL 2017</span>
         </p>
