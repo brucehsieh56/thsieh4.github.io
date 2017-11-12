@@ -48,13 +48,14 @@ tr:hover { background-color: #d4ecfe; }
 .image {
   opacity: 0.8;
   display: block;
-  width: auto;
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
 .middle {
+  width: 80%;
+  height: 80%;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -62,7 +63,7 @@ tr:hover { background-color: #d4ecfe; }
   left: 50%;
   overflow: hidden;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
 }
 
 .hovereffect:hover .image { opacity: 0.3;}
