@@ -57,10 +57,10 @@ permalink: /posts/testpage/
 
 
 <div class="row">
-  <div class="mb-4 col-md-6">
+  <div class="mb-4 col-ms-6">
     <div class="hovereffect">
-      <img class="mb-2" src="/figure/demo.png">
-      <div class="overlay">
+      <img class="image mb-2" src="/figure/demo.png">
+      <div class="middle">
         <h2>Spotify Top 200 Tracks Prediction</h2>
       </div>
     </div>
