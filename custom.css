@@ -41,10 +41,7 @@ tr:hover { background-color: #d4ecfe; }
 
 
 /* https://miketricking.github.io/bootstrap-image-hover/ */
-.hovereffect {
-    position: relative;
-    width: 50%;
-}
+.hovereffect { position: relative; }
 
 .image {
   opacity: 1;
