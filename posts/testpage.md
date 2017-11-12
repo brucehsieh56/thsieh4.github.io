@@ -61,7 +61,15 @@ permalink: /posts/testpage/
     <div class="hovereffect">
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
-        <h2>Spotify Top 200 Tracks Prediction</h2>
+        <h4>Spotify Top 200 Tracks Prediction</h4>
+        <i class="material-icons md-16">loyalty</i>
+        <span class="badge badge-dark">Team Project</span>
+        <span class="badge badge-dark">Fall 2017</span>
+        <span class="badge badge-secondary">Machine Learning</span>
+        <span class="badge badge-secondary">Data Visualization</span>
+        <span class="badge badge-success">Python</span>
+        <span class="badge badge-info">scikit-learn</span>
+        <span class="badge badge-info">pandas</span>
       </div>
     </div>
   </div>
