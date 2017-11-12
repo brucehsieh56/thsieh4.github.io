@@ -57,7 +57,7 @@ permalink: /posts/testpage/
 
 
 <div class="row">
-  <div class="mb-4 col-ms-6">
+  <div class="mb-4 col-md-6">
     <div class="hovereffect">
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
