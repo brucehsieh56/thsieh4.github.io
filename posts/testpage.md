@@ -58,10 +58,10 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-4 col-md-6">
-    <div class="hovereffect" style="height: 28rem;">
+    <div class="hovereffect" style="height: 20rem;">
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
-        <h4>Spotify Top 200 Tracks Prediction</h4>
+        <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Tracks Prediction</h4></a>
         <p style="color:#f4f4f4;">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
         <h6>
           <i class="material-icons md-16">loyalty</i>
