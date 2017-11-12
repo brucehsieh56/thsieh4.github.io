@@ -42,7 +42,6 @@ tr:hover { background-color: #d4ecfe; }
 
 /* https://miketricking.github.io/bootstrap-image-hover/ */
 .hovereffect {
-  width: 100%;
   height: 100%;
   float: left;
   overflow: hidden;
