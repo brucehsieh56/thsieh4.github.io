@@ -46,8 +46,8 @@ tr:hover { background-color: #d4ecfe; }
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+/*   width: 100%; */
+/*   height: auto; */
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -62,5 +62,8 @@ tr:hover { background-color: #d4ecfe; }
   -ms-transform: translate(-50%, -50%)
 }
 
-.hovereffect:hover .image { opacity: 0.3; }
+.hovereffect:hover .image { 
+/*     opacity: 0.3; */
+    background-color: rgba(48, 152, 157, 0.4);
+}
 .hovereffect:hover .middle { opacity: 1;}
