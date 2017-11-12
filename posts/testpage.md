@@ -59,20 +59,9 @@ permalink: /posts/testpage/
 <div class="row">
   <div class="mb-4 col-md-6">
     <div class="hovereffect">
-      <img class="mb-2" src="/figure/demo.png" alt="">
+      <img class="mb-2" src="/figure/demo.png">
       <div class="overlay">
         <h2>Spotify Top 200 Tracks Prediction</h2>
-        <p class="info">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
-        <h6 class="info">
-          <i class="material-icons md-16">loyalty</i>
-          <span class="badge badge-dark">Team Project</span>
-          <span class="badge badge-dark">Fall 2017</span>
-          <span class="badge badge-secondary">Machine Learning</span>
-          <span class="badge badge-secondary">Data Visualization</span>
-          <span class="badge badge-success">Python</span>
-          <span class="badge badge-info">scikit-learn</span>
-          <span class="badge badge-info">pandas</span>
-        </h6>
       </div>
     </div>
   </div>
