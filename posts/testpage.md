@@ -65,4 +65,5 @@ permalink: /posts/testpage/
       </div>
     </div>
   </div>
+  <div class="mb-4 col-md-6"></div>
 </div>  
