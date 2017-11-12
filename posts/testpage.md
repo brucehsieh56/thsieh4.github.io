@@ -31,7 +31,7 @@ permalink: /posts/testpage/
   </div>  
 
   <div class="mb-4 col-md-6">
-    <div class="card" style="height: 25rem;">
+    <div class="card" style="height: 28rem;">
       <h4 class="card-header bg-dark" style="color:#f4f4f4;">Single View Metrology with Line Segment Detector</h4>
       <div class="card-body bg-dark">
         <div class="container" style="width: 80%;">
@@ -58,7 +58,7 @@ permalink: /posts/testpage/
 
 <div class="row">
   <div class="mb-4 col-md-6">
-    <div class="hovereffect" style="height: 20rem;">
+    <div class="hovereffect" style="height: 18rem;">
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
         <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Tracks Prediction</h4></a>
@@ -78,7 +78,7 @@ permalink: /posts/testpage/
   </div>
   
   <div class="mb-4 col-md-6">
-    <div class="hovereffect" style="height: 20rem;">
+    <div class="hovereffect" style="height: 18rem;">
       <img class="image mb-2" src="/figure/Project_SingleViewMetrology.gif">
       <div class="middle">
         <h4>Single View Metrology with Line Segment Detector</h4>
