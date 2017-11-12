@@ -43,7 +43,7 @@ tr:hover { background-color: #d4ecfe; }
 /* https://miketricking.github.io/bootstrap-image-hover/ */
 .hovereffect { 
   position: relative;
-  background-color: rgba(75,75,75,0.7);
+  background-color: rgba(75,75,75,0.8);
   overflow: hidden;}
 
 .image {
