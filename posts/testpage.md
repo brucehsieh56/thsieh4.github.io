@@ -31,7 +31,7 @@ permalink: /posts/testpage/
   </div>  
 
   <div class="mb-4 col-md-6">
-    <div class="card" style="height: 28rem;">
+    <div class="card" style="height: 25rem;">
       <h4 class="card-header bg-dark" style="color:#f4f4f4;">Single View Metrology with Line Segment Detector</h4>
       <div class="card-body bg-dark">
         <div class="container" style="width: 80%;">
@@ -40,7 +40,7 @@ permalink: /posts/testpage/
         <p class="card-text text-left" style="color:#f4f4f4;">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
       </div>
       <div class="card-footer bg-dark" style="color:#f4f4f4;">
-        <h6>
+        <h6 class="fixed-bottom">
           <i class="material-icons md-16">loyalty</i>
           <span class="badge badge-dark">Team Project</span>
           <span class="badge badge-dark">Spring 2017</span>
