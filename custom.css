@@ -43,7 +43,8 @@ tr:hover { background-color: #d4ecfe; }
 /* https://miketricking.github.io/bootstrap-image-hover/ */
 .hovereffect { 
   position: relative;
-  background-color: rgba(75,75,75,0.7);}
+  background-color: rgba(75,75,75,0.7);
+  overflow: hidden;}
 
 .image {
   opacity: 0.8;
@@ -67,7 +68,7 @@ tr:hover { background-color: #d4ecfe; }
   transform: translate(-50%, -50%);
 }
 
-.hovereffect:hover .image { opacity: 0.3;}
+.hovereffect:hover .image { opacity: 0.2;}
 .hovereffect:hover .middle { opacity: 1;}
 
 .hovereffect h4 {
