@@ -61,7 +61,7 @@ permalink: /posts/testpage/
     <div class="hovereffect" style="height: 20rem;">
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
-        <a href="https://github.com/thsieh4/CSC522_project"><h4 style="opacity:1;">1Spotify Top 200 Tracks Prediction</h4></a>
+        <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Tracks Prediction</h4></a>
         <p style="color:#f4f4f4;">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
         <h6 class="fixed-bottom">
           <i class="material-icons md-16">loyalty</i>
@@ -76,5 +76,24 @@ permalink: /posts/testpage/
       </div>
     </div>
   </div>
-  <div class="mb-4 col-md-6"></div>
+  
+  <div class="mb-4 col-md-6">
+    <div class="hovereffect" style="height: 20rem;">
+      <img class="image mb-2" src="/figure/Project_SingleViewMetrology.gif">
+      <div class="middle">
+        <h4>Single View Metrology with Line Segment Detector</h4>
+        <p style="color:#f4f4f4;">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
+        <h6 class="fixed-bottom">
+          <i class="material-icons md-16">loyalty</i>
+          <span class="badge badge-dark">Team Project</span>
+          <span class="badge badge-dark">Spring 2017</span>
+          <span class="badge badge-secondary">Image Processing</span>
+          <span class="badge badge-success">MATLAB</span>
+          <span class="badge badge-success">Python</span>
+          <span class="badge badge-info">OpenCV</span>
+        </h6>
+      </div>
+    </div>
+  </div>
+  
 </div>  
