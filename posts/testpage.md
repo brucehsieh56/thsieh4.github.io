@@ -59,7 +59,7 @@ permalink: /posts/testpage/
 <div class="row">
   <div class="mb-4 col-md-6">
     <div class="hovereffect">
-      <img class="img-responsive mb-2" src="/figure/demo.png" alt="">
+      <img class="mb-2" src="/figure/demo.png" alt="">
       <div class="overlay">
         <h2>Spotify Top 200 Tracks Prediction</h2>
         <p class="info">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
