@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: default
 title: Test Page
 permalink: /posts/testpage/
 ---
