@@ -62,7 +62,7 @@ permalink: /posts/testpage/
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
         <h4>Spotify Top 200 Tracks Prediction</h4>
-        <p>>A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
+        <p style="color:#f4f4f4;">A binary classification model capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
         <h6>
           <i class="material-icons md-16">loyalty</i>
           <span class="badge badge-dark">Team Project</span>
