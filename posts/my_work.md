@@ -1,7 +1,7 @@
 ---
 layout: default
-title: My Work
-permalink: /posts/my_work/
+title: Work
+permalink: /posts/works/
 ---
 
 <div class="row">
