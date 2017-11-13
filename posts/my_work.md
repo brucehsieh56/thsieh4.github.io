@@ -5,7 +5,7 @@ permalink: /posts/works/
 ---
 
 <div class="row">
-  <div class="mb-4 col-lg-6">
+  <div class="mb-4 col-xl-6">
     <div class="hovereffect" style="height: 18rem;">
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
@@ -28,7 +28,7 @@ permalink: /posts/works/
     </div>
   </div>
   
-  <div class="mb-4 col-lg-6">
+  <div class="mb-4 col-xl-6">
     <div class="hovereffect" style="height: 18rem;">
       <img class="image mb-2" src="/figure/Project_SingleViewMetrology.gif">
       <div class="middle">
