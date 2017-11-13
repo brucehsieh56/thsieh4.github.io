@@ -5,13 +5,13 @@ permalink: /posts/works/
 ---
 
 <div class="row">
-  <div class="mb-4 col-md-6">
+  <div class="mb-4 col-lg-6">
     <div class="hovereffect" style="height: 18rem;">
       <img class="image mb-2" src="/figure/demo.png">
       <div class="middle">
         <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Tracks Prediction</h4></a>
         <p style="color:#f4f4f4;">A binary classifier capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
-        <div class="progress">
+        <div class="progress mb-2">
           <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:78%">78%</div>
         </div>
         <h6 class="fixed-bottom">
@@ -28,7 +28,7 @@ permalink: /posts/works/
     </div>
   </div>
   
-  <div class="mb-4 col-md-6">
+  <div class="mb-4 col-lg-6">
     <div class="hovereffect" style="height: 18rem;">
       <img class="image mb-2" src="/figure/Project_SingleViewMetrology.gif">
       <div class="middle">
