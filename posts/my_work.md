@@ -7,7 +7,7 @@ permalink: /posts/works/
 <div class="row">
   <div class="mb-4 col-xl-6">
     <div class="hovereffect" style="height: 18rem;">
-      <img class="image mb-2" src="/figure/demo.png">
+      <img class="image mb-2 img-thumbnail" src="/figure/demo.png">
       <div class="middle">
         <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Tracks Prediction</h4></a>
         <p style="color:#f4f4f4;">A binary classifier capable of predicting whether a song will be listed in Top 200 Tracks on Spotify.</p>
@@ -30,7 +30,7 @@ permalink: /posts/works/
   
   <div class="mb-4 col-xl-6">
     <div class="hovereffect" style="height: 18rem;">
-      <img class="image mb-2" src="/figure/Project_SingleViewMetrology.gif">
+      <img class="image mb-2 img-thumbnail" src="/figure/Project_SingleViewMetrology.gif">
       <div class="middle">
         <h4>Single View Metrology with Line Segment Detector</h4>
         <p style="color:#f4f4f4;">Reconstructed the 3D box-shaped object from one single 2D image in terms of projective geometry.</p>
