@@ -45,7 +45,7 @@ tr:hover { background-color: #d4ecfe; }
 /* https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .hovereffect { 
   position: relative;
-  background-color: rgba(75,75,75,0.95);
+  background-color: #2b2b2b;
   overflow: hidden;}
 
 .image {
