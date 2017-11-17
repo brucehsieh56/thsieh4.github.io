@@ -165,7 +165,7 @@ So, to query the coordinates for **University of Pittsburgh-Pittsburgh Campus**,
 
 Actually, you can open a browser, paste the above url (with YOUR OWN API KEY!!) and hit enter. You should see a page look like this
 
-![2017Nov17_demo](/2017Nov17_demo)
+![2017Nov17_request.png](/figure/2017Nov17_request.png)
 
 This is what (longitude and latitude) we are looking for (red rectangle)!! But instead of using a browser and copy and paste an url, we use a more fancy way to query: `Python`.
 
