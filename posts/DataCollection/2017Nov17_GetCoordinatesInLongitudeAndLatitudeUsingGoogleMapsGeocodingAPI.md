@@ -1,3 +1,8 @@
+---
+layout: default
+title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
+permalink: /posts/DataCollection/2017Nov17
+---
 
 ## Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
 
@@ -70,7 +75,7 @@ df.head()
 
 
 
-<div>
+<div class="scroll">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -208,7 +213,7 @@ school.head()
 
 
 
-<div>
+<div class="scroll">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -322,7 +327,7 @@ school.head()
 
 
 
-<div>
+<div class="scroll">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -479,7 +484,7 @@ school.head()
 
 
 
-<div>
+<div class="scroll">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
@@ -599,7 +604,7 @@ school.head()
 
 
 
-<div>
+<div class="scroll">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
