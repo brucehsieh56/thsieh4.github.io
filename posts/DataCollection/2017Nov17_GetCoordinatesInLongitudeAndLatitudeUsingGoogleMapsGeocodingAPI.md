@@ -279,7 +279,7 @@ Now we have the school name, it's time to get their coordinates!!
 
 As [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) pointed out, to obtain a coordinates for **1600 Amphitheatre Parkway, Mountain View, CA**, we can use the following format:
 
-<p style="text-align: center;">`https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY`</p>
+<p style="text-align: center;"><code>https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY</code></p>
 
 ---
 
