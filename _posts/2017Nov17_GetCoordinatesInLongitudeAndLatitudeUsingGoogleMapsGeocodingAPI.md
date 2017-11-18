@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: post
 title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
-permalink: /posts/2017Nov17
+date:   2017-11-18
+categories: post update
 tags: Python
+permalink: /posts/2017Nov17
 ---
 
 ## Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
