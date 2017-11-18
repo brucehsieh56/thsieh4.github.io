@@ -605,10 +605,10 @@ output_file('map_school_GA_CARTODBPOSITRON_RETINA.html')
 show(p)
 ```
 
-<div class="row">
+<div class="row scroll">
   <div class="col-lg-1">
   </div>
-  <div class="col-lg-10 scroll">
+  <div class="col-lg-10">
     {% include map_school_GA_CARTODBPOSITRON_RETINA.html %}
   </div>
   <div class="col-lg-1">
@@ -665,10 +665,10 @@ output_file('map_school_GA_STAMEN_TONER.html')
 show(p)
 ```
 
-<div class="row">
+<div class="row scroll">
   <div class="col-lg-1">
   </div>
-  <div class="col-lg-10 scroll">
+  <div class="col-lg-10">
     {% include map_school_GA_STAMEN_TONER.html %}
   </div>
   <div class="col-lg-1">
