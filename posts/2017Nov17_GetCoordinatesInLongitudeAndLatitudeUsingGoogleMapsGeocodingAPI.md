@@ -9,6 +9,20 @@ tags: DataCollection DataVisualization Python
 
 ---
 
+<p>
+    {% for tag in site.tags %}
+    <!-- Here's a hack to generate a "tag cloud" where the size of
+    the word is directly proportional to the number of posts with
+    that tag. -->
+    <a href="/tags/{{ tag[0] }}/" 
+    style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">
+        {{ tag[0] }} | 
+    </a>
+    {% endfor %}
+</p>
+
+
+
 ### Motivation
 Although nowaday there are many free websites or database (e.g. [PostGIS](http://postgis.net/)) providing data related to geolocation, lots of the time I still can't find the data with geographical data I want.
 
