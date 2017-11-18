@@ -33,5 +33,9 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/custom.css">
+    
+    {% if site.tags != "" %}
+      {% include collecttags.html %}
+    {% endif %}
 
 </head>
