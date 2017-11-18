@@ -1,5 +1,5 @@
 ---
-layout: tag_page
+layout: tagpage
 tag: Python
 permalink: /tags/Python/
 ---
