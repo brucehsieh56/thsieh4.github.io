@@ -673,3 +673,9 @@ show(p)
   <div class="col-lg-1">
   </div>
 </div>
+
+<p>
+  {% for tag in page.tags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a>
+  {% endfor %}
+</p>
