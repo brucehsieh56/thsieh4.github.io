@@ -675,7 +675,7 @@ show(p)
 </div>
 
 <p>
-  {% for tag in default.tags %}
+  {% for tag in page.tags %}
     <a href="/tags/{{ tag }}/">{{ tag }}</a>
   {% endfor %}
 </p>
