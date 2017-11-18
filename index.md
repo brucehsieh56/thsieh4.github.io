@@ -10,7 +10,7 @@ Welcome to my website. I'm Bruce. I'd like to share my works and interesting exp
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.date post.title }}</a>
     </li>
   {% endfor %}
 </ul>
