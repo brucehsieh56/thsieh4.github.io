@@ -656,6 +656,16 @@ output_file('map_school_GA_STAMEN_TONER.html')
 show(p)
 ```
 
+<div class="row">
+  <div class="col-lg-1">
+  </div>
+  <div class="col-lg-auto">
+<!--     {% include cattle_sold_NC_2012.html %} -->
+    {% include map_school_GA_STAMEN_TONER.html %}
+  </div>
+  <div class="col-lg-1">
+  </div>
+</div>
 
-{% include map_school_GA_STAMEN_TONER.html %}
+
 
