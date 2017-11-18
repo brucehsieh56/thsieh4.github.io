@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
