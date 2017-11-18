@@ -608,7 +608,7 @@ show(p)
 <div class="row">
   <div class="col-lg-1">
   </div>
-  <div class="col-lg-10">
+  <div class="col-lg-10 scroll">
     {% include map_school_GA_CARTODBPOSITRON_RETINA.html %}
   </div>
   <div class="col-lg-1">
@@ -668,7 +668,7 @@ show(p)
 <div class="row">
   <div class="col-lg-1">
   </div>
-  <div class="col-lg-10">
+  <div class="col-lg-10 scroll">
     {% include map_school_GA_STAMEN_TONER.html %}
   </div>
   <div class="col-lg-1">
