@@ -605,7 +605,16 @@ output_file('map_school_GA_CARTODBPOSITRON_RETINA.html')
 show(p)
 ```
 
-{% include map_school_GA_CARTODBPOSITRON_RETINA.html %}
+<div class="row">
+  <div class="col-lg-1">
+  </div>
+  <div class="col-lg-auto">
+    {% include map_school_GA_CARTODBPOSITRON_RETINA.html %}
+  </div>
+  <div class="col-lg-1">
+  </div>
+</div>
+
 
 We can also add the boundary of Georgia so that the graph will look more clear.
 
@@ -660,12 +669,8 @@ show(p)
   <div class="col-lg-1">
   </div>
   <div class="col-lg-auto">
-<!--     {% include cattle_sold_NC_2012.html %} -->
     {% include map_school_GA_STAMEN_TONER.html %}
   </div>
   <div class="col-lg-1">
   </div>
 </div>
-
-
-
