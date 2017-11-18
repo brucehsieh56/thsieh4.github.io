@@ -609,7 +609,9 @@ show(p)
   <div class="col-lg-1">
   </div>
   <div class="col-lg-10">
+    <div class="container">
     {% include map_school_GA_CARTODBPOSITRON_RETINA.html %}
+    </div>
   </div>
   <div class="col-lg-1">
   </div>
@@ -669,7 +671,9 @@ show(p)
   <div class="col-lg-1">
   </div>
   <div class="col-lg-10">
-    {% include map_school_GA_STAMEN_TONER.html %}
+    <div class="container">
+      {% include map_school_GA_STAMEN_TONER.html %}
+    </div>
   </div>
   <div class="col-lg-1">
   </div>
