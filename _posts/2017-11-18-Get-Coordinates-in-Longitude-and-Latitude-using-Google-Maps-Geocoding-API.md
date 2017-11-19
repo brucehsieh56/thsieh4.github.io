@@ -1,16 +1,9 @@
 ---
 layout: post
-title: test
-date:   2017-11-18
-categories: Python
+title: Get-Coordinates-in-Longitude-and-Latitude-using-Google-Maps-Geocoding-API
+date: 2017-11-18
 tags: Python DataVisualization
 ---
-
-1
-{% include tagsforpost.html tags=post.tags %}
-1
-{% include tagsforpost.html tags=page.tags %}
-1
 
 ## Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
 
