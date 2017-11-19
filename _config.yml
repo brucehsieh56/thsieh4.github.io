@@ -1,5 +1,5 @@
 collections:
-my_categories:
+  my_categories:
     output: true
     permalink: /blog/category/:name/
   my_tags:
