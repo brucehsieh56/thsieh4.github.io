@@ -1,23 +1,11 @@
 ---
 layout: default
-title: Tag Page
-permalink: /tag_page
+title: Post Home
+permalink: /post_home/
 ---
 
-# Tags
+<h2> <i class="material-icons">image</i> Data Visualization</h2>[2017 Nov 01: Build an Interactive Map with Longitude and Latitude using Bokeh in Python](/posts/DataVisualization/2017Nov01)
 
-{% capture tag %}
-  {% for tag in site.tags %}
-    {{ tag[0] }}
-  {% endfor %}
-{% endcapture %}
-{% assign sortedtags = tag | split:' ' | sort %}
+<h2> <i class="material-icons">system_update_alt</i> Data Collection</h2>[2017 Nov 08: Get Top Tracks from Spotify Chart and Audio Features from Spotify Web API using Python](/posts/DataCollection/2017Nov08)
 
-{% for tag in sortedtags %}
-  <h3 id="{{ tag }}">{{ tag }}</h3>
-  <ul>
-  {% for post in site.tags[tag] %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
-{% endfor %}
+<h2> <i class="material-icons md-48">find_in_page</i> Data Resource</h2>[2017 Nov 03: Data resource](/posts/DataResource/)
