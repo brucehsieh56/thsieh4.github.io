@@ -4,7 +4,7 @@ title: Tag Page
 permalink: /tag_page
 ---
 
-<h1><i class="material-icons md-24">local_offer</i> TAGS</h1>
+<h2><i class="material-icons md-24">local_offer</i> Tags</h2>
 
 {% capture tag %}
   {% for tag in site.tags %}
