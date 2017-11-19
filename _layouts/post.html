@@ -6,21 +6,6 @@
     <body>
 
     {% include navbar.html %}
-        33333
-    {% if post.tags.size > 0 %}
-      {% capture tags_content %} with <span class="icon-price-tag{% if post.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
-      {% for post_tag in post.tags %}
-        {% assign tag = site.my_tags | where: "slug", post_tag %}
-        {% if tag %}
-          {% assign tag = tag[0] %}
-          {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}">{{ tag.title }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
-          {% assign tags_content = tags_content_temp %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-        
-        
-    4444
         
         <div class="container">
             <div class="row mt-3 mb-5">
@@ -36,7 +21,19 @@
             </div>
         </div>
         
-     5555555   
+9999
+    {% if post.tags.size > 0 %}
+      {% capture tags_content %} with <span class="icon-price-tag{% if post.tags.size > 1 %}s{% endif %}"></span>: {% endcapture %}
+      {% for post_tag in post.tags %}
+        {% assign tag = site.my_tags | where: "slug", post_tag %}
+        {% if tag %}
+          {% assign tag = tag[0] %}
+          {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}">{{ tag.title }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+          {% assign tags_content = tags_content_temp %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+        
   <p class="m-t-3 text-muted font-italic">
     <small>Posted{% if category_content %} in </small>{{ category_content }}<small>{% endif %}{{ tags_content }}</small>
   </p>
