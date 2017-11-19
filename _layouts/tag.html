@@ -2,8 +2,10 @@
 layout: page
 ---
 
+Not Python
+
 {% for post in site.tags[page.tag] %}
-    <a href="{{ post.url | absolute_url }}">
+    <a href="{{ post.url | absolute_url }}" style="display: inline;">
       {{ post.title }}
     </a>
 {% endfor %}
