@@ -1,7 +1,7 @@
 collections:
   my_tags:
     output: true
-    permalink: /tag/:title/
+    permalink: /tag/:name/
 
 title: thsieh4
 url: "https://thsieh4.github.io/"
