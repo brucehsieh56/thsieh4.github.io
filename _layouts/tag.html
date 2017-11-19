@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: layout
 ---
 
 {% for post in site.tags[page.tag] %}
     <a href="{{ post.url | absolute_url }}">
-      {{ post.tag }}
       {{ post.title }}
     </a>
 {% endfor %}
