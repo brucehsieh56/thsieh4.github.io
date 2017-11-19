@@ -1,10 +1,11 @@
 
 h1, h2, h3, h4, h5, h6 { 
-  /*font-family: 'Inconsolata', monospace;*/
+  font-family: 'Crimson Text', serif;
   text-align: left; }
 
 p, li, badge { 
-  font-family: 'Mukta Malar', sans-serif;}
+  font-family: 'Inconsolata', monospace;}
+  /*font-family: 'Mukta Malar', sans-serif;}*/
 
 h6 { font-size: 13px; }
 
