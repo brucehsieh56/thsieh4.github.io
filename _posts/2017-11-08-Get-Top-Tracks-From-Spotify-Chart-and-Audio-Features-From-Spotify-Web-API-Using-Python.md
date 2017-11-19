@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Get Top Tracks From Spotify Chart and Audio Features From Spotify Web API Using Python
-permalink: /posts/DataCollection/2017Nov08
+date: 2017-11-08
+category: DataScience
+tags: [python, DataCollecion]
 ---
 
 ## Get Top Tracks From Spotify Chart and Audio Features From Spotify Web API Using Python

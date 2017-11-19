@@ -2,8 +2,8 @@
 layout: post
 title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
 date: 2017-11-18
-category: programming
-tags: [python, github-pages, DataVisualization]
+category: DataScience
+tags: [python, DataVisualization, DataCollecion]
 ---
 
 ## Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
