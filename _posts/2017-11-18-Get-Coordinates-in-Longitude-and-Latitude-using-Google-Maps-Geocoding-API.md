@@ -2,7 +2,7 @@
 layout: post
 title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
 date: 2017-11-18
-tags: Python DataVisualization
+tags: [DataVisualization, python] 
 ---
 
 ## Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
@@ -10,7 +10,7 @@ tags: Python DataVisualization
 Test tags
 
 {% for tag in page.tags %}
-  <p><span><a href="/tags/{{ tag }}/">{{ tag }}</a></span></p>
+  <small><span><a href="/tags/{{ tag }}/">{{ tag }}</a></span></small>
 {% endfor %}
 
 ---
