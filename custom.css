@@ -6,8 +6,7 @@ p, li, badge { font-family: 'Mukta Malar', sans-serif;}
 
 h6 { font-size: 13px; }
 
-p { font-size: 14px;
-  text-align: justify;}
+p { text-align: justify;}
 
 /* Code Block font size*/
 pre { font-size: 12px; }
