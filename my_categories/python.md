@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: food
-name: Food
+slug: python
+name: Python
 whatever: another value
 ---
