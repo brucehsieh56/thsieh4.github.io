@@ -1,3 +1,8 @@
+collections:
+  my_tags:
+    output: true
+    permalink: /tag/:title/
+
 title: thsieh4
 url: "https://thsieh4.github.io/"
 baseurl: ""
