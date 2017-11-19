@@ -9,7 +9,7 @@ tags: [Python, DataVisualization, DataCollecion]
 ## Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
 
 {% for tag in page.tags %}
-  <p style="display: inline;"><a href="/tag/{{ tag }}/">{{ tag }} </a></p>
+  <p style="display: inline;"><a href="/tag/{{ tag }}/">{{ tag }}</a> </p>
 {% endfor %}
 
 ---
