@@ -14,3 +14,14 @@ Welcome to my website. I'm Bruce. I'd like to share my works and interesting exp
     </li>
   {% endfor %}
 </ul>
+
+
+{% capture tags %}
+  {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+{% for tag in sortedtags %}
+    <a href="/tags/{{ tag }}/">{{ tag }}</a><br>
+{% endfor %}
