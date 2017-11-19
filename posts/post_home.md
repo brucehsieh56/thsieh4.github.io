@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Post Home
-permalink: /post_home/
+permalink: /post_home
 ---
 
 <h2> <i class="material-icons">image</i> Data Visualization</h2>[2017 Nov 01: Build an Interactive Map with Longitude and Latitude using Bokeh in Python](/posts/DataVisualization/2017Nov01)

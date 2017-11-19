@@ -1,9 +1,12 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;}
+    
+    /*font-family: 'Rubik', sans-serif;*/
 
 p, li, badge {
-    font-family: 'Inconsolata', monospace;}
+    font-family: 'Mukta Malar', sans-serif;
+    /*font-family: 'Inconsolata', monospace;}*/
 
 h6 { font-size: 13px; }
 p { text-align: justify;}
