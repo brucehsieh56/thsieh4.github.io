@@ -1,4 +1,5 @@
 title: thsieh4
 url: "https://thsieh4.github.io/"
 baseurl: ""
-github_username:  thsieh4
+github_username: thsieh4
+permalink: /:year/:month/:day/:title.html
