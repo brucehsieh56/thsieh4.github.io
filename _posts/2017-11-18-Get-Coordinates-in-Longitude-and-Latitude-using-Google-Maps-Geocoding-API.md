@@ -6,8 +6,6 @@ category: DataScience
 tags: [Python, Bokeh, DataVisualization, DataCollecion]
 ---
 
-## Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
-
 ---
 
 ### Motivation

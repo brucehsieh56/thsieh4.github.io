@@ -3,10 +3,8 @@ layout: default
 title: Build an Interactive Map with Longitude and Latitude using Bokeh in Python
 date: 2017-11-01
 category: DataScience
-tags: [Python, DataVisualization]
+tags: [Python, Bokeh, DataVisualization]
 ---
-
-## Build an Interactive Map with Longitude and Latitude using Bokeh in Python
 
 ---
 
