@@ -1,12 +1,16 @@
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Rubik', sans-serif;}
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Inconsolata', monospace;
+  text-align: left; }
 
-p, li, badge { font-family: 'Mukta Malar', sans-serif;}
-    /*font-family: 'Inconsolata', monospace;}*/
+p, li, badge { 
+  font-family: 'Mukta Malar', sans-serif;}
 
 h6 { font-size: 13px; }
 
-p { text-align: justify;}
+p { 
+  font-size: 14px;
+  text-align: justify;}
 
 /* Code Block font size*/
 pre { font-size: 12px; }
