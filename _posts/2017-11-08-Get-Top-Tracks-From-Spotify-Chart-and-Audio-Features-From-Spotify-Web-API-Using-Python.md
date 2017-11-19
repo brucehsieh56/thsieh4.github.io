@@ -455,7 +455,7 @@ plt.show()
 ```
 
 <div class="scroll">
-  <img src="/figures/2017Nov08_scatterplot.png" alt="scatterplot">
+  <img src="/figure/2017Nov08_scatterplot.png" alt="scatterplot">
 </div>
 
 According to Spotify Web API [documentation](https://developer.spotify.com/web-api/get-audio-features/),
