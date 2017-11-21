@@ -7,7 +7,7 @@ permalink: /About
 <div class="row mt-3">
 	<div class="col-lg-4">
 		<a href="https://www.coursera.org/">
-			<img src="/figure/coursera_logo.png" height="50px">
+			<img src="/figure/coursera_logo.png" height="50px" align="middle">
 		</a>
 	</div>
 	<div class="col-lg-8">
@@ -56,7 +56,7 @@ permalink: /About
 <div class="row mt-3">
 	<div class="col-lg-4">
 		<a href="https://courses.edx.org/">
-			<img src="/figure/edx_logo.png" height="50px">
+			<img src="/figure/edx_logo.png" height="50px" align="middle">
 		</a>
 	</div>
 	<div class="col-lg-8">
