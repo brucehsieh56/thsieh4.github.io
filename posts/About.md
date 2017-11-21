@@ -7,7 +7,7 @@ permalink: /About
 <div class="row">
 	<div class="col-lg-4">
 		<a href="https://www.coursera.org/">
-			<img src="/figure/coursera_logo_square.png" height="50">
+			<img src="/figure/coursera_logo_square.png">
 		</a>
 	</div>
 	<div class="col-lg-8">
@@ -51,5 +51,17 @@ permalink: /About
 			<a href="https://www.coursera.org/account/accomplishments/records/Us8qRdPrxUeSmffC" style="text-align:left;">Web Application Architectures<span style="float:right;">Spring 2015</span></a>
 		</li>
 	</div>
+</div>
 
+<div class="row">
+	<div class="col-lg-4">
+		<a href="https://www.edx.org/">
+			<img src="/figure/edx_logo_final.ai">
+		</a>
+	</div>
+	<div class="col-lg-8">
+			<li>
+			<a href="https://www.coursera.org/account/accomplishments/records/Us8qRdPrxUeSmffC" style="text-align:left;">Web Application Architectures<span style="float:right;">Spring 2015</span></a>
+		</li>
+	</div>
 </div>
