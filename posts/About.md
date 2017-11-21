@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /About
 ---
 <div class="row mt-3">
-	<p>I'm a motivated self-learner and have accomplished the following online courses:</p>
+	<p>Hey, I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</p>
 </div>
 <div class="row" style="text-align: center;">
 	<div class="col-12">
