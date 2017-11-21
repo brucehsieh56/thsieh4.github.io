@@ -4,7 +4,9 @@ title: About
 permalink: /About
 ---
 <div class="row mt-3">
-	<h3 style="color: white;">Hey, I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</h3>
+	<div class="col-12">
+		<h4 style="color: white;">Hey, I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</h4>
+	</div>
 </div>
 <div class="row" style="text-align: center;">
 	<div class="col-12">

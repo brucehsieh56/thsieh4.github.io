@@ -427,7 +427,7 @@ school.head()
 
 
 
-With the aid of **Google Maps Geocoding API**, we can get the coordinates we want to know for a place, that is soooo cool!!
+With the aid of **Google Maps Geocoding API**, we can get the coordinates we want to know for a place, that is soooo.. cool!!
 
 ### Convert coordinate
 Although already having the coordinates in longitude and latitude, sometimes when we want to overlay our data on a map ([for case without a map](https://thsieh4.github.io/datascience/2017/11/01/Build-an-Interactive-Map-with-Longitude-and-Latitude-using-Bokeh-in-Python/)), we need a coordinate transformation. Why is that? Because
@@ -621,11 +621,11 @@ show(p)
   </div>
 </div>
 
-The above interactive map shows the location of each school in Georgia. The bigger the dot, the higher the tuition the school is. One thing very interesting is that, if you zoomin the map, you can see that most schools are located at the intersection of roads.
+The above interactive map shows the location of schools in Georgia. The bigger the blue dot, the higher the tuition the of a school is. One interesting thing is that, if you zoom in the map, you can see that most schools are located at the intersection of roads.
 
 ---
 
-Other than this, we can also add the boundary of Georgia so that the graph will look more clear.
+Other than this, we can also add the [boundary of Georgia](https://github.com/thsieh4/thsieh4.github.io/blob/master/data/geometry_GA.csv) so that the graph will look more clear.
 
 ```python
 # read data

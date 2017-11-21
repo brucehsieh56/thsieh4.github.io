@@ -1,9 +1,9 @@
 
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h6 { 
   font-family: "Courier", Courier, monospace;
   text-align: left; }
 
-p, li, badge { 
+p, li, h5, badge { 
   /*font-family: 'Inconsolata', monospace;}*/
   font-family: 'Mukta Malar', sans-serif;}
 
@@ -27,7 +27,6 @@ div.scroll {
 
 /* Block quote */
 blockquote {
-  font-family: "Courier", Courier, monospace;
   border-left: 4px solid #e8e8e8;
   padding-left: 10px;
   font-size: 18px;
@@ -35,6 +34,8 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
   margin: 20px 0;}
+
+blockquote .p { font-family: "Courier", Courier, monospace;}
 
 /* Table properties */
 table, th, td, tr {
