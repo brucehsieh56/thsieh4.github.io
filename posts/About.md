@@ -10,6 +10,8 @@ permalink: /About
 	<a href="https://www.coursera.org/" style="text-align: center">
 		<img src="/figure/coursera_logo.png" height="50px">
 	</a>
+</div>
+<div class="row">
 	<li>
 		<a href="https://www.coursera.org/account/accomplishments/records/WHDZHN5SR57Q" style="text-align:left;">Applied Text Mining in Python<span style="float:right;">Summer 2017</span></a>
 	</li>
@@ -52,10 +54,13 @@ permalink: /About
 	<a href="https://courses.edx.org/">
 		<img src="/figure/edx_logo.png" height="50px">
 	</a>
-	<li>
-		<a href="https://courses.edx.org/certificates/92a3d320d1fe47f78395c120b9987df8" style="text-align:left;">The Analytics Edge<span style="float:right;">Summer 2017</span></a>
+</div>
+<div class="row">
+ <li>
+	<a href="https://courses.edx.org/certificates/92a3d320d1fe47f78395c120b9987df8" style="text-align:left;">The Analytics Edge<span style="float:right;">Summer 2017</span></a>
 	</li>
 	<li>
 		<a href="https://s3.amazonaws.com/verify.edx.org/downloads/f0298ad775f1400baee4bac2de471cec/Certificate.pdf" style="text-align:left;">Introduction to Bootstrap<span style="float:right;">Spring 2015</span></a>
 	</li>
 </div>
+
