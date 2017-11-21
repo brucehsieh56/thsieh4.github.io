@@ -3,17 +3,16 @@ layout: page
 title: About
 permalink: /About
 ---
-
+<div class="row">
+	<p>I'm a motivated self-learner and have accomplished the following online courses:</p>
+</div>
 <div class="row mt-3">
-	<div class="col-lg-4">
+	<div class="col-lg-4" style="text-align: center;">
 		<a href="https://www.coursera.org/" style="text-align: center">
-			<img src="/figure/coursera_logo.png" height="50px" align="middle">
+			<img src="/figure/coursera_logo.png" height="60px">
 		</a>
 	</div>
 	<div class="col-lg-8">
-		<p>Motivated Self-learner • October 2013 - Present</p>
-		<!-- <p>I've a</p> -->
-
 		<li>
 			<a href="https://www.coursera.org/account/accomplishments/records/WHDZHN5SR57Q" style="text-align:left;">Applied Text Mining in Python<span style="float:right;">Summer 2017</span></a>
 		</li>
@@ -27,13 +26,13 @@ permalink: /About
 			<a href="https://www.coursera.org/account/accomplishments/records/VWB2JHD6V4VW" style="text-align:left;">Introduction to Data Science in Python<span style="float:right;">Summer 2017</span></a>
 		</li>
 		<li>
+			<a href="https://www.coursera.org/account/accomplishments/records/cUBQ6GZTBJpDbqBM" style="text-align:left;">An Introduction to Interactive Programming in Python (Part 1)<span style="float:right;">Fall 2015</span></a>
+		</li>
+		<li>
 			<a href="https://www.coursera.org/account/accomplishments/records/hJrTwSuq5MrzrEP6" style="text-align:left;">Principles of Computing (Part 2)<span style="float:right;">Summer 2015</span></a>
 		</li>
 		<li>
 			<a href="https://www.coursera.org/account/accomplishments/records/9J3nWfsKJVSWwDRr" style="text-align:left;">Principles of Computing (Part 1)<span style="float:right;">Summer 2015</span></a>
-		</li>
-		<li>
-			<a href="https://www.coursera.org/account/accomplishments/records/cUBQ6GZTBJpDbqBM" style="text-align:left;">An Introduction to Interactive Programming in Python (Part 1)<span style="float:right;">Fall 2015</span></a>
 		</li>
 		<li>
 			<a href="https://www.coursera.org/account/accomplishments/records/k6G4pZtbe7rj7S8S" style="text-align:left;">An Introduction to Interactive Programming in Python (Part 2)<span style="float:right;">Spring 2015</span></a>
@@ -54,9 +53,9 @@ permalink: /About
 </div>
 
 <div class="row mt-3">
-	<div class="col-lg-4">
-		<a href="https://courses.edx.org/" style="text-align: center">
-			<img src="/figure/edx_logo.png" height="50px" align="middle">
+	<div class="col-lg-4" style="text-align: center;">
+		<a href="https://courses.edx.org/">
+			<img src="/figure/edx_logo.png" height="50px">
 		</a>
 	</div>
 	<div class="col-lg-8">

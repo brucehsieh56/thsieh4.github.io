@@ -13,6 +13,10 @@ p {
   font-size: 15.5px;
   text-align: justify;}
 
+/* Link style*/
+a:link { color: #00b1b3; }
+a:hover { color: orange; }
+
 /* Code Block font size*/
 pre { font-size: 12px; }
 
