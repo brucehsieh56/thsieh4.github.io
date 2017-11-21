@@ -6,7 +6,7 @@ permalink: /posts/works/
 
 <div class="row">
   <div class="mb-4 col-xl-6">
-    <div class="container" style="padding: 3px; border-radius: 4px; border: 1px solid #ddd;">
+    <div class="container" style="padding: 3px; border-radius: 4px; border: 1px solid #ddd; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
       <div class="hovereffect" style="height: 18rem;">
         <img class="image mb-2" src="/figure/demo.png">
         <div class="middle">
