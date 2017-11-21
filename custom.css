@@ -14,9 +14,7 @@ p {
   text-align: justify;}
 
 /* Link style*/
-a:link {
-    color: red;
-}
+a:link { color: #00b1b3; }
 a:hover { color: orange; }
 
 /* Code Block font size*/
