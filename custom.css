@@ -27,13 +27,14 @@ div.scroll {
 
 /* Block quote */
 blockquote {
-    border-left: 4px solid #e8e8e8;
-    padding-left: 10px;
-    font-size: 18px;
-    opacity: .6;
-    letter-spacing: -1px;
-    font-style: italic;
-    margin: 20px 0;}
+  font-family: "Courier", Courier, monospace;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 10px;
+  font-size: 18px;
+  opacity: .6;
+  letter-spacing: -1px;
+  font-style: italic;
+  margin: 20px 0;}
 
 /* Table properties */
 table, th, td, tr {

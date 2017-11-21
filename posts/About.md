@@ -4,12 +4,12 @@ title: About
 permalink: /About
 ---
 <div class="row mt-3">
-	<p>Hey, I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</p>
+	<h3 style="color: white;">Hey, I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</h3>
 </div>
 <div class="row" style="text-align: center;">
 	<div class="col-12">
 		<a href="https://www.coursera.org/" style="text-align: center">
-			<img src="/figure/coursera_logo.png" height="50px">
+			<img src="/figure/coursera_logo_white.png" height="60px">
 		</a>
 	</div>
 </div>
@@ -57,7 +57,7 @@ permalink: /About
 <div class="row mt-3" style="text-align: center;">
 	<div class="col-12">
 		<a href="https://courses.edx.org/">
-			<img src="/figure/edx_logo.png" height="50px">
+			<img src="/figure/edx_logo.png" height="60px">
 		</a>
 	</div>
 </div>

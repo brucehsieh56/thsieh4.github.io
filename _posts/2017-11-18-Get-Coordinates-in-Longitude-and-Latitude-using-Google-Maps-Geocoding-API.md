@@ -3,31 +3,32 @@ layout: post
 title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
 date: 2017-11-18
 category: DataScience
-tags: [Python, Bokeh, DataVisualization, DataCollecion]
+tags: [Python, Bokeh, DataVisualization, DataCollection]
 ---
+
 
 ---
 
 ### Motivation
-Although nowaday there are many free websites or database (e.g. [PostGIS](http://postgis.net/)) providing data related to geolocation, lots of the time I still can't find the data with geographical data I want.
+Although there are many free websites or databases (e.g. [PostGIS](http://postgis.net/)) providing data related to geolocation, sometimes I still can't find the geographic data I want. Luckily, **Google Maps Geocoding API** has such a generous service for us to get or query coordinates in longitude and latitude.
 
-Luckily, **Google Maps Geocoding API** has such a generous service for us to get coordinates in longitude and latitude (and other information). In this post, we will show how to get the coordinates for schools (college and university) in **Georgia** from Google Maps Geocoding API using `Python` automatically. After that, we will draw and overlap these schools on a map using `Bokeh`.
+In this post, we will show how to get the coordinates for schools (college and university) in **Georgia** from Google Maps Geocoding API using `Python` automatically. After that, we will draw and overlap these schools on a map using `Bokeh`.
 
 ---
 
-But before getting our hands dirty, we need an **API key** from Google to make a query for the coordinates. Here is the [quick guide](https://developers.google.com/maps/documentation/geocoding/get-api-key) to get your **API key**.
+But right before getting our hands dirty, we need an **API key** from Google to make a query for coordinates. Google has its own [quick guide](https://developers.google.com/maps/documentation/geocoding/get-api-key) for us to get our **API key**.
 
 Once have your secret API key, we can get start!!
 
 ### Download the data
-- The first data is [here](https://github.com/thsieh4/thsieh4.github.io/blob/master/data/school_GA.csv), it has information including a list of school and the corresponding tuition fee. This one has been manipulated so that we don't need additional complex data cleaning (The origin of the first data comes from [U.S Department of Education](https://collegecost.ed.gov/catc/default.aspx#)).
+- The first data is [here](https://github.com/thsieh4/thsieh4.github.io/blob/master/data/school_GA.csv), it has information including a list of school and the corresponding tuition fee. This one has been manipulated so that we don't need additional complex data cleaning (the origin of this data comes from [U.S Department of Education](https://collegecost.ed.gov/catc/default.aspx#)).
 
-- Another dataset we used is the [geometry of Georgia](https://github.com/thsieh4/thsieh4.github.io/blob/master/data/geometry_GA.csv). Basically, it's the boundary of Georgia State, we will use it in the last part of this post.
+- The second dataset we used is the [geometry of Georgia](https://github.com/thsieh4/thsieh4.github.io/blob/master/data/geometry_GA.csv). Basically, it's the boundary of Georgia State, we will use it in the last part of this post.
 
 ### Get the school name
 To get the coordinates for schools in **Georgia**, the first thing is to have a list of **school names**, which is included in our first dataset.
 
-Import the python packages.
+Import python packages.
 
 
 ```python
@@ -37,9 +38,9 @@ import json
 from urllib.request import urlopen
 ```
 
-Here, `urllib` and `json` packages are used to make an **address (coordinate)** request to Google Maps Geocoding API and read `html` file later. 
+Here, `urllib` package is used to make an **address (coordinate)** request to Google Maps Geocoding API while `json` package is used to read the requested `html` in json format from Google file later. 
 
-Let's read the dataset of school first.
+Let's read the dataset of school.
 
 
 ```python
@@ -114,21 +115,21 @@ school.head()
 
 
 This data has three interesting columns.
-- **sector_name** tells us the type of a school (e.g. *4-year, public*, *4-year, private not-for-profit*, *Less than 2-year, public* and so on).
-- **institution_name** has a list of schools that we want to know their coordinates.
-- **2015_16_tuition_fee** shows the tuition fee for each school during 2015 and 2016.
+- `sector_name` tells us the type of a school (e.g. *4-year, public*, *4-year, private not-for-profit*, *Less than 2-year, public* and so on).
+- `institution_name` has a list of schools that we want to know their locations.
+- `2015_16_tuition_fee` shows the tuition fee for each school during 2015 and 2016.
 
 Now we have the **school name**, it's time to get their coordinates!!
 
-### Request the coordinates
+### Get the coordinates
 
-As [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) pointed out, to query the coordinates for **1600 Amphitheatre Parkway, Mountain View, CA**, we should use the following format:
+As [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) pointed out, to query the location for **1600 Amphitheatre Parkway, Mountain View, CA**, we should use the following format:
 
 <p style="text-align: center;"><code>https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY</code></p>
 
 ---
 
-Let's break the above link or format into three parts:
+Let's break the above url or link into three parts:
 
 <p style="text-align: center;">1.<code>https://maps.googleapis.com/maps/api/geocode/json?address=</code></p>
 
@@ -144,13 +145,13 @@ or more specifically,
 
 <p style="text-align: center;">3.<code>API Key</code></p>
  
-1. `https://maps.googleapis.com/maps/api/geocode/json?address=` is the default url for address (coordaintes) query, there is no need to modify it.
-2. `the place we are interested in` is the **school name** in our data, but with different format.
+1. `https://maps.googleapis.com/maps/api/geocode/json?address=` is the default or prefix url for location query, there is no need to modify it.
+2. `the place we are interested in` is the **school name** in our data.
 3. `API Key` is your secret API key (that you get from [Google](https://developers.google.com/maps/documentation/geocoding/get-api-key)).
 
 ---
 
-In detail, `the place we are interested in` should have the format like `1600+Amphitheatre+Parkway,+Mountain+View,+CA`. For example, if we want to get the coordinates of **University of Pittsburgh-Pittsburgh Campus**, we should use
+In detail, the second part, `the place we are interested in`, should have the format like `1600+Amphitheatre+Parkway,+Mountain+View,+CA`. For example, if we want to get the location of **University of Pittsburgh-Pittsburgh Campus**, we should use
 
 <p style="text-align: center;"><code>University+of+Pittsburgh+Pittsburgh+Campus</code></p>
 
@@ -158,19 +159,22 @@ by inserting `+` between each word (instead of `University of Pittsburgh-Pittsbu
 
 ---
 
-So, to query the coordinates for **University of Pittsburgh-Pittsburgh Campus**, we should use 
+Put together, to query the location for **University of Pittsburgh-Pittsburgh Campus**, we have to use 
 
 `https://maps.googleapis.com/maps/api/geocode/json?address=University+of+Pittsburgh-Pittsburgh+Campus&key=YOUR_API_KEY`
 
 Actually, you can open a browser, paste the above url (with YOUR OWN API KEY!!) and hit enter. You should see a page look like this
 
-![2017Nov17_demo](/2017Nov17_demo)
+<div class="scroll">
+  <img src="/figure/2017Nov17_request.png">
+</div>
+
 
 This is what (longitude and latitude) we are looking for (red rectangle)!! But instead of using a browser and copy and paste an url, we use a more fancy way to query: `Python`.
 
 ---
 
-So, let's use `Python` to do some string operation and get the desired url format.
+Okay, let's use `Python` to do some string operation and get the desired url format.
 
 
 ```python
@@ -254,7 +258,7 @@ school.head()
 
 
 
-The last column has the format for querying. Let's get the coordinates for the first school **Georgia Institute of Technology-Main Campus** in our school `DataFrame`.
+The last column has the format for querying. To give a small example, let's get the coordinates for the first school **Georgia Institute of Technology-Main Campus** in our `school` `DataFrame`.
 
 
 ```python
@@ -305,11 +309,11 @@ json.loads(txt_json)
 
 
 
-Google Geocoding API have offered lots of information for our query. Here,
+Google Geocoding API have offered lots of location information for **Georgia Institute of Technology-Main Campus**. Here,
 
 <p style="text-align: center;"><code>'geometry': {'location': {'lat': 33.7756178, 'lng': -84.39628499999999},</code></p>
 
-has the location information we want. Now we define a function to get coordinates for all of schools.
+has the coordinate information we want. Now we define a function to get coordinates for all of schools.
 
 
 ```python
@@ -423,19 +427,18 @@ school.head()
 
 
 
-With the aid of **Google Maps Geocoding API**, we can get the coordinates we want to know for a place, so cool!!
+With the aid of **Google Maps Geocoding API**, we can get the coordinates we want to know for a place, that is soooo cool!!
 
 ### Convert coordinate
-
-Although having already the coordinates in longitude and latitude, sometimes when we want to overlay our data on a map ([for case without a map](https://thsieh4.github.io/posts/DataVisualization/2017Nov01)), we need a coordinate transformation. Why is that? Because
+Although already having the coordinates in longitude and latitude, sometimes when we want to overlay our data on a map ([for case without a map](https://thsieh4.github.io/datascience/2017/11/01/Build-an-Interactive-Map-with-Longitude-and-Latitude-using-Bokeh-in-Python/)), we need a coordinate transformation. Why is that? Because
 
 > Most map APIs are a **2D plane map**, but longitude and latitude are measured in 3D.
 
-Since geographical system using longitude, latitude and elevation is measured in **3D** aspect, so we need a coordinate transformation to project our longitude and latitude onto a 2D plane. Here is a [great explanation in detail](https://www.uwgb.edu/dutchs/FieldMethods/UTMSystem.htm).
+Since geographical system using longitude, latitude and elevation is measured in **3D** aspect, so we need a coordinate transformation to project our longitude and latitude onto a 2D plane. This is called **Mercator Projection** and [here is a great explanation in detail](https://www.uwgb.edu/dutchs/FieldMethods/UTMSystem.htm).
 
 ---
 
-So let's define the coordinate transformation function.
+Let's define the coordinate transformation function.
 
 
 ```python
@@ -555,10 +558,10 @@ school.head()
 
 
 
-Now it's a perfect time to overlay this data on a 2D map.
+The last two columns `x` and `y` are the projected coordinates. Now it's a perfect time to overlay this data on a 2D map.
 
 ### Overlay data on a map
-Import `Bokeh` packages for interactive plot.
+Import `Bokeh` packages for interactive data visualization.
 
 
 ```python
@@ -569,7 +572,11 @@ from bokeh.models import ColumnDataSource, HoverTool, PanTool, ResetTool, WheelZ
 from bokeh.tile_providers import STAMEN_TONER, CARTODBPOSITRON_RETINA
 ```
 
-Bokeh have several differnt types of [map](https://bokeh.pydata.org/en/latest/docs/reference/tile_providers.html) for overlaying. Here we use `CARTODBPOSITRON_RETINA` map for demonstration.
+Bokeh have several [differnt types of map](https://bokeh.pydata.org/en/latest/docs/reference/tile_providers.html) for overlaying. Here we use `CARTODBPOSITRON_RETINA` and `STAMEN_TONER` for demonstration.
+
+---
+
+Use `CARTODBPOSITRON_RETINA` first.
 
 
 ```python
@@ -614,9 +621,11 @@ show(p)
   </div>
 </div>
 
+The above interactive map shows the location of each school in Georgia. The bigger the dot, the higher the tuition the school is. One thing very interesting is that, if you zoomin the map, you can see that most schools are located at the intersection of roads.
 
-We can also add the boundary of Georgia so that the graph will look more clear.
+---
 
+Other than this, we can also add the boundary of Georgia so that the graph will look more clear.
 
 ```python
 # read data
@@ -653,7 +662,7 @@ p.add_tile(STAMEN_TONER)
 p.line(geo_x, geo_y, line_width=2, color='orange')
 
 # add schools
-scatter = p.circle('x', 'y', source=source, fill_color='blue', alpha=.5, radius='dot_size')
+scatter = p.circle('x', 'y', source=source, fill_color='navy', alpha=.4, radius='dot_size')
 
 # add hover effect to school
 hover.renderers.append(scatter)
@@ -662,6 +671,7 @@ hover.renderers.append(scatter)
 output_file('map_school_GA_STAMEN_TONER.html')
 show(p)
 ```
+
 
 <div class="row">
   <div class="col-lg-1">
