@@ -7,7 +7,7 @@ permalink: /About
 <div class="row">
 	<div class="col-md-2">
 		<a href="https://www.coursera.org/">
-			<img src="/figure/coursera_logo_black.png">
+			<img src="/figure/coursera_logo_black.png" height="50">
 		</a>
 	</div>
 
