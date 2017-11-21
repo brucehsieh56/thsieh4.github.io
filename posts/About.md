@@ -6,7 +6,7 @@ permalink: /About
 
 <div class="row">
 	<div class="col-lg-4">
-		<a href="https://www.coursera.org/" height="50">
+		<a href="https://www.coursera.org/" height="50px">
 			<img src="/figure/coursera_logo_white.png">
 		</a>
 	</div>
@@ -56,12 +56,15 @@ permalink: /About
 <div class="row">
 	<div class="col-lg-4">
 		<a href="https://courses.edx.org/">
-			<img src="/figure/edx_logo_final.png" height="50">
+			<img src="/figure/edx_logo_final.png" height="50px">
 		</a>
 	</div>
 	<div class="col-lg-8">
-			<li>
-			<a href="https://www.coursera.org/account/accomplishments/records/Us8qRdPrxUeSmffC" style="text-align:left;">Web Application Architectures<span style="float:right;">Spring 2015</span></a>
+		<li>
+			<a href="https://courses.edx.org/certificates/92a3d320d1fe47f78395c120b9987df8" style="text-align:left;">The Analytics Edge<span style="float:right;">Summer 2017</span></a>
+		</li>
+		<li>
+			<a href="https://s3.amazonaws.com/verify.edx.org/downloads/f0298ad775f1400baee4bac2de471cec/Certificate.pdf" style="text-align:left;>"Introduction to Bootstrap<span style="float:right;">Spring 2015</span></a>
 		</li>
 	</div>
 </div>
