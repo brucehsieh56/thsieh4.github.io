@@ -3,13 +3,13 @@ layout: page
 title: About
 permalink: /About
 ---
-<div class="row">
+<div class="row mt-3">
 	<p>I'm a motivated self-learner and have accomplished the following online courses:</p>
 </div>
-<div class="row mt-3">
+<div class="row">
 	<div class="col-lg-4" style="text-align: center;">
 		<a href="https://www.coursera.org/" style="text-align: center">
-			<img src="/figure/coursera_logo.png" height="60px">
+			<img src="/figure/coursera_logo.png" height="50px">
 		</a>
 	</div>
 	<div class="col-lg-8">
