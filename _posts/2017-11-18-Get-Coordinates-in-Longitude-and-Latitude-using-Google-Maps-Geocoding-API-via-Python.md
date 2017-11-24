@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API
+title: Get Coordinates in Longitude and Latitude using Google Maps Geocoding API via Python
 date: 2017-11-18
 category: DataScience
 tags: [Python, Bokeh, DataVisualization, DataCollection]
@@ -174,7 +174,7 @@ This is what (longitude and latitude) we are looking for (red rectangle)!! But i
 
 ---
 
-Okay, let's use `Python` to do some string operation and get the desired url format.
+Okay, let's do some string operation and get the desired url format.
 
 
 ```python
