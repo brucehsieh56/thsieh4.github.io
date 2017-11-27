@@ -7,14 +7,40 @@ permalink: /About
 <!-- Greeting -->
 <div class="row mt-3">
 	<div class="col-12">
-		<h5 style="color: white;">Thanks for stopping by my personal website! I'm Bruce.</h5>
-		<h5 style="color: white;"> I am a motivated self-learner and have accomplished the following online courses:</h5>
+		<h5 style="color: white;">Thanks for stopping by my personal website!</h5>
+	</div>
+</div>
+
+
+<!-- SKILLS -->
+<div class="row mt-3">
+	<div class="col-12">
+		<h4 style="color: white; text-align: left;">SKILLS</h4>	
+	</div>
+</div>
+<div class="row mt-2">
+	<div class="col-6">#00b1b3
+		<h5 style="color: #088ed1;">Computer Languages</h5>
+		<li style="color: #00b1b3;">Python (sklearn, pandas, matplotlib, Keras, NLTK)</li>
+		<li style="color: #00b1b3;">MATLAB</li>
+		<li style="color: #00b1b3;">R</li>
+		<li style="color: #00b1b3;">C++ / C</li>
+		<li style="color: #00b1b3;">HTML / CSS (Bootstrap, Jekyll)</li>
+	</div>
+	<div class="col-6">
+		<h5 style="color: #088ed1;">Tools</h5>
+		<li style="color: #00b1b3;">Jupyter Notebook</li>
+		<li style="color: #00b1b3;">Github / Github pages</li>
+		<li style="color: #00b1b3;">Machintoch / Windows</li>
+		<li style="color: #00b1b3;">Microsoft Office / LibreOffice</li>
 	</div>
 </div>
 
 
 <!-- Coursera -->
-<div class="row mt-2" style="text-align: center;">
+<div class="row mt-3" style="text-align: center;">
+	<h4 style="color: white; text-align: left;">CERTIFICATIONS / ACHIEVEMENTS</h4>	
+	<h5 style="color: white;">I am a motivated self-learner and have accomplished the following online courses:</h5>
 	<div class="col-12">
 		<a href="https://www.coursera.org/" style="text-align: center">
 			<img src="/figure/coursera_logo_white.png" height="60px">
@@ -64,7 +90,7 @@ permalink: /About
 
 
 <!-- edX -->
-<div class="row mt-2" style="text-align: center;">
+<div class="row mt-3" style="text-align: center;">
 	<div class="col-12">
 		<a href="https://courses.edx.org/">
 			<img src="/figure/edx_logo.png" height="60px">
@@ -73,7 +99,7 @@ permalink: /About
 </div>
 <div class="row mt-2">
 	<div class="col-12">
-	 <li>
+	<li>
 		<a href="https://courses.edx.org/certificates/92a3d320d1fe47f78395c120b9987df8" style="text-align:left;">The Analytics Edge<span style="float:right;">Summer 2017</span></a>
 	</li>
 	<li>
@@ -83,25 +109,4 @@ permalink: /About
 </div>
 
 
-<!-- SKILLS -->
-<div class="row mt-2">
-	<div class="col-12">
-		<h5 style="color: white; text-align: center;">SKILLS</h5>	
-	</div>
-</div>
-<div class="row mt-2">
-	<div class="col-6">
-		<h5>Computer Languages</h5>
-		<li style="color: yellow;">Python (sklearn, pandas, matplotlib, Keras, NLTK)</li>
-		<li style="color: yellow;">MATLAB</li>
-		<li style="color: yellow;">R</li>
-		<li style="color: yellow;">C++ / C</li>
-	</div>
-	<div class="col-6">
-		<h5>Tools</h5>
-		<li style="color: yellow;">Jupyter Notebook</li>
-		<li style="color: yellow;">Github</li>
-		<li style="color: yellow;">Machintoch / Windows</li>
-		<li style="color: yellow;">Microsoft Office / LibreOffice</li>
-	</div>
-</div>
+
