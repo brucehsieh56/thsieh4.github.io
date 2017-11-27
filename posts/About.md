@@ -3,6 +3,8 @@ layout: about
 title: About
 permalink: /About
 ---
+
+<!-- Greeting -->
 <div class="row mt-3">
 	<div class="col-12">
 		<h5 style="color: white;">Thanks for stopping by my personal website! I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</h5>
@@ -10,6 +12,7 @@ permalink: /About
 </div>
 
 
+<!-- Coursera -->
 <div class="row mt-2" style="text-align: center;">
 	<div class="col-12">
 		<a href="https://www.coursera.org/" style="text-align: center">
@@ -58,6 +61,8 @@ permalink: /About
 	</div>
 </div>
 
+
+<!-- edX -->
 <div class="row mt-2" style="text-align: center;">
 	<div class="col-12">
 		<a href="https://courses.edx.org/">
@@ -69,24 +74,29 @@ permalink: /About
 	<div class="col-12">
 	 <li>
 		<a href="https://courses.edx.org/certificates/92a3d320d1fe47f78395c120b9987df8" style="text-align:left;">The Analytics Edge<span style="float:right;">Summer 2017</span></a>
-		</li>
-		<li>
-			<a href="https://s3.amazonaws.com/verify.edx.org/downloads/f0298ad775f1400baee4bac2de471cec/Certificate.pdf" style="text-align:left;">Introduction to Bootstrap<span style="float:right;">Spring 2015</span></a>
-		</li>
+	</li>
+	<li>
+		<a href="https://s3.amazonaws.com/verify.edx.org/downloads/f0298ad775f1400baee4bac2de471cec/Certificate.pdf" style="text-align:left;">Introduction to Bootstrap<span style="float:right;">Spring 2015</span></a>
+	</li>
 	</div>
 </div>
 
+
+<!-- SKILLS -->
 <div class="row mt-2">
 	<h5 style="text-align: center;">SKILLS</h5>
-	<div class="col-2">
-		<li><p>Python</p></li>
-		<li><p>MATLAB</p></li>
-		<li><p>R</p></li>
-		<li><p>C++ / C</p></li>
+</div>
+<div class="row mt-2">
+	<div class="col-6">
+		<li><p style="color: yellow;">Python (sklearn, pandas, NumPy, matplotlib, Keras, NLTK, NetworkX)</p></li>
+		<li><p style="color: yellow;">MATLAB</p></li>
+		<li><p style="color: yellow;">R</p></li>
+		<li><p style="color: yellow;">C++ / C</p></li>
 	</div>
-	<div class="col-2">
-		<li><p>Python</p></li>
-		<li><p>MATLAB</p></li>
-		<li><p>R</p></li>
+	<div class="col-6">
+		<li><p style="color: yellow;">Jupyter Notebook</p></li>
+		<li><p style="color: yellow;">Github</p></li>
+		<li><p style="color: yellow;">Machintoch / Windows</p></li>
+		<li><p style="color: yellow;">Microsoft Office / LibreOffice</p></li>
 	</div>
 </div>
