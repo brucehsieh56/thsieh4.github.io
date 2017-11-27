@@ -4,7 +4,7 @@ layout: default
 
 # Hello!
 
-Welcome to my website. I'm Bruce, I'd like to share my works and interesting experience in Machine Learning and Data Science, please have a look at my posts.
+Welcome to my website. I'm Bruce, I'd like to share my interesting experience in Machine Learning and Data Science, please have a look at my posts and works.
 
 # Posts
 <ul>
@@ -24,7 +24,7 @@ Welcome to my website. I'm Bruce, I'd like to share my works and interesting exp
       <div class="hovereffect" style="height: 18rem;">
         <img class="image mb-2" src="/figure/demo.png">
         <div class="middle">
-          <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Tracks Prediction</h4></a>
+          <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Hits Prediction</h4></a>
           <p style="color:#f4f4f4; text-align:center;">A binary classifier capable of predicting whether a song will be a hit on Spotify.</p>
           <div class="progress mb-3">
             <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:95%">95%</div>

@@ -5,17 +5,19 @@ permalink: /About
 ---
 <div class="row mt-3">
 	<div class="col-12">
-		<h4 style="color: white;">Hey, I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</h4>
+		<h5 style="color: white;">Thanks for stopping by my personal website! I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</h5>
 	</div>
 </div>
-<div class="row" style="text-align: center;">
+
+
+<div class="row mt-2" style="text-align: center;">
 	<div class="col-12">
 		<a href="https://www.coursera.org/" style="text-align: center">
 			<img src="/figure/coursera_logo_white.png" height="60px">
 		</a>
 	</div>
 </div>
-<div class="row">
+<div class="row mt-2">
 	<div class="col-12">
 		<li>
 			<a href="https://www.coursera.org/account/accomplishments/records/WHDZHN5SR57Q" style="text-align:left;">Applied Text Mining in Python<span style="float:right;">Summer 2017</span></a>
@@ -56,14 +58,14 @@ permalink: /About
 	</div>
 </div>
 
-<div class="row mt-3" style="text-align: center;">
+<div class="row mt-2" style="text-align: center;">
 	<div class="col-12">
 		<a href="https://courses.edx.org/">
 			<img src="/figure/edx_logo.png" height="60px">
 		</a>
 	</div>
 </div>
-<div class="row">
+<div class="row mt-2">
 	<div class="col-12">
 	 <li>
 		<a href="https://courses.edx.org/certificates/92a3d320d1fe47f78395c120b9987df8" style="text-align:left;">The Analytics Edge<span style="float:right;">Summer 2017</span></a>
@@ -74,3 +76,17 @@ permalink: /About
 	</div>
 </div>
 
+<div class="row mt-2">
+	<h5 style="text-align: center;">SKILLS</h5>
+	<div class="col-2">
+		<li><p>Python</p></li>
+		<li><p>MATLAB</p></li>
+		<li><p>R</p></li>
+		<li><p>C++ / C</p></li>
+	</div>
+	<div class="col-2">
+		<li><p>Python</p></li>
+		<li><p>MATLAB</p></li>
+		<li><p>R</p></li>
+	</div>
+</div>
