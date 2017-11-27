@@ -13,7 +13,7 @@ permalink: /About
 
 
 <!-- SKILLS -->
-<div class="row mt-3">
+<div class="row mt-4">
 	<div class="col-12">
 		<h3 style="color: white; text-align: center;">SKILLS</h3>
 	</div>
@@ -37,13 +37,19 @@ permalink: /About
 </div>
 
 
+<!-- CERTIFICATIONS -->
+<div class="row mt-4">
+	<div class="col-12">
+		<h3 style="color: white; text-align: center;">CERTIFICATIONS / ACHIEVEMENTS</h3>
+		<p style="color: #088ed1;">I am a motivated self-learner and have accomplished the following online courses:</p>
+	</div>
+</div>
+
 <!-- Coursera -->
-<div class="row mt-3">
-	<h3 style="color: white; text-align: center;">CERTIFICATIONS / ACHIEVEMENTS</h3>
-	<h5 style="color: white;">I am a motivated self-learner and have accomplished the following online courses:</h5>
+<div class="row mt-2">
 	<div class="col-12">
 		<a href="https://www.coursera.org/" style="text-align: center">
-			<img src="/figure/coursera_logo_white.png" height="60px">
+			<img src="/figure/coursera_logo_white.png" height="50px">
 		</a>
 	</div>
 </div>
@@ -90,10 +96,10 @@ permalink: /About
 
 
 <!-- edX -->
-<div class="row mt-3">
+<div class="row mt-4">
 	<div class="col-12">
 		<a href="https://courses.edx.org/">
-			<img src="/figure/edx_logo.png" height="60px">
+			<img src="/figure/edx_logo.png" height="50px" style="text-align: center">
 		</a>
 	</div>
 </div>
