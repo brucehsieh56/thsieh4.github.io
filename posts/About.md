@@ -41,13 +41,13 @@ permalink: /About
 <div class="row mt-4">
 	<div class="col-12">
 		<h3 style="color: white; text-align: center;">CERTIFICATIONS / ACHIEVEMENTS</h3>
-		<p style="color: #088ed1;">I am a motivated self-learner and have accomplished the following online courses:</p>
+		<p style="color: #088ed1; text-align: center;">I am a motivated self-learner and have accomplished the following online courses:</p>
 	</div>
 </div>
 
 <!-- Coursera -->
 <div class="row mt-2">
-	<div class="col-12">
+	<div class="col-12" style="text-align: center">
 		<a href="https://www.coursera.org/" style="text-align: center">
 			<img src="/figure/coursera_logo_white.png" height="50px">
 		</a>
@@ -97,7 +97,7 @@ permalink: /About
 
 <!-- edX -->
 <div class="row mt-4">
-	<div class="col-12">
+	<div class="col-12" style="text-align: center">
 		<a href="https://courses.edx.org/">
 			<img src="/figure/edx_logo.png" height="50px" style="text-align: center">
 		</a>
