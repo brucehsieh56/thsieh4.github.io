@@ -75,12 +75,10 @@ Welcome to my website. I'm Bruce, I'd like to share my interesting experience in
       		<div class="hovereffect" style="height: 18rem;">
         		<img class="image mb-2" src="/figure/work_flood_detection.png">
         		<div class="middle">
-          			<h4>Flood Detection</h4></a>
-          			<p style="color:#f4f4f4; text-align:left;">
-          				<li>Generated representative features by preprocessing the flood and non-flood images with a band-pass filter.</li>
-          				<li>Built flood detection models using Support Vector Machine and Neural Network.</li>
-          				<li>Accomplished 0.88 of F-score based on Neural Network model.</li>
-          			</p>
+          			<h4>Flood Detection</h4>
+      				<li style="color:#f4f4f4; text-align:left;">Generated representative features by preprocessing the flood / non-flood images with a band-pass filter.</li>
+      				<li style="color:#f4f4f4; text-align:left;">Built flood detection models using Support Vector Machine and Neural Network.</li>
+      				<li style="color:#f4f4f4; text-align:left;">Accomplished F-score 0.88 based on Neural Network model.</li>
          			<h6 class="fixed-bottom">
 	        			<i class="material-icons md-16">local_offer</i>
 			            <span class="badge badge-primary">Team Project</span>
