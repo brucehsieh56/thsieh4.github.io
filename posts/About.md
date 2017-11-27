@@ -7,7 +7,8 @@ permalink: /About
 <!-- Greeting -->
 <div class="row mt-3">
 	<div class="col-12">
-		<h5 style="color: white;">Thanks for stopping by my personal website! I'm Bruce. I am a motivated self-learner and have accomplished the following online courses:</h5>
+		<h5 style="color: white;">Thanks for stopping by my personal website! I'm Bruce.</h5>
+		<h5 style="color: white;"> I am a motivated self-learner and have accomplished the following online courses:</h5>
 	</div>
 </div>
 
@@ -84,19 +85,23 @@ permalink: /About
 
 <!-- SKILLS -->
 <div class="row mt-2">
-	<h5 style="text-align: center;">SKILLS</h5>
+	<div class="col-12">
+		<h5 style="color: white; text-align: center;">SKILLS</h5>	
+	</div>
 </div>
 <div class="row mt-2">
 	<div class="col-6">
-		<li><p style="color: yellow;">Python (sklearn, pandas, NumPy, matplotlib, Keras, NLTK, NetworkX)</p></li>
-		<li><p style="color: yellow;">MATLAB</p></li>
-		<li><p style="color: yellow;">R</p></li>
-		<li><p style="color: yellow;">C++ / C</p></li>
+		<h5>Computer Languages</h5>
+		<li style="color: yellow;">Python (sklearn, pandas, matplotlib, Keras, NLTK)</li>
+		<li style="color: yellow;">MATLAB</li>
+		<li style="color: yellow;">R</li>
+		<li style="color: yellow;">C++ / C</li>
 	</div>
 	<div class="col-6">
-		<li><p style="color: yellow;">Jupyter Notebook</p></li>
-		<li><p style="color: yellow;">Github</p></li>
-		<li><p style="color: yellow;">Machintoch / Windows</p></li>
-		<li><p style="color: yellow;">Microsoft Office / LibreOffice</p></li>
+		<h5>Tools</h5>
+		<li style="color: yellow;">Jupyter Notebook</li>
+		<li style="color: yellow;">Github</li>
+		<li style="color: yellow;">Machintoch / Windows</li>
+		<li style="color: yellow;">Microsoft Office / LibreOffice</li>
 	</div>
 </div>
