@@ -9,7 +9,7 @@ tags: [Python, Bokeh, DataVisualization]
 ---
 
 ## Motivation
-This is a simple example using `Bokeh` to draw the image with `hovertool`.
+This is a short example using `Bokeh` with its `hovertool` to draw images.
 
 <div class="row">
   <div class="col-lg-1">
@@ -20,7 +20,6 @@ This is a simple example using `Bokeh` to draw the image with `hovertool`.
   <div class="col-lg-1">
   </div>
 </div>
-
 
 ## Download the data
 Both of the dataset comes from [Quick Draw Dataset](https://github.com/googlecreativelab/quickdraw-dataset#the-raw-moderated-dataset).
@@ -65,10 +64,11 @@ plt.show()
 ```
 
 
-![](/2017Nov30_octupos_demo.png)
+<div class="scroll">
+  <img src="/figure/2017Nov30_octupos_demo.png" alt="octupos">
+</div>
 
-
-Next, we try to get the corresponding country of each image.
+Next, we get the corresponding country code of each image.
 
 
 ```python
@@ -80,7 +80,7 @@ with jsonlines.open('octopus.ndjson') as reader:
     country_data = [data['countrycode'] for data in reader]
 ```
 
-Here, `jsonlines` is the package for reading `ndjson` file. We extract the country information from this data.
+Here, `jsonlines` is the package for reading `ndjson` file.
 
 ## Draw the images
 
@@ -130,8 +130,35 @@ p2 = figure(plot_width=350, plot_height=350,
 
 # draw the image
 p2.image('img', source=s2, x=0, y=0, dw=img_size, dh=img_size)
+```
 
 
+
+
+<div style="display: table;"><div style="display: table-row;"><div style="display: table-cell;"><b title="bokeh.models.renderers.GlyphRenderer">GlyphRenderer</b>(</div><div style="display: table-cell;">id&nbsp;=&nbsp;'4541dcfa-68de-4881-baea-1b771c885f64', <span id="e1999574-d414-478b-aec3-33c772b697b7" style="cursor: pointer;">&hellip;)</span></div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">data_source&nbsp;=&nbsp;ColumnDataSource(id='7bdc5ba3-6ebc-48de-be38-293fba4836b8', ...),</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">glyph&nbsp;=&nbsp;Image(id='1cc3074a-d9ee-49c6-b8aa-12a0c2c09223', ...),</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">hover_glyph&nbsp;=&nbsp;None,</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">js_event_callbacks&nbsp;=&nbsp;{},</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">js_property_callbacks&nbsp;=&nbsp;{},</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">level&nbsp;=&nbsp;'glyph',</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">muted&nbsp;=&nbsp;False,</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">muted_glyph&nbsp;=&nbsp;None,</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">name&nbsp;=&nbsp;None,</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">nonselection_glyph&nbsp;=&nbsp;Image(id='8e0c0072-cd90-4f5c-a5cc-7710f0d021c1', ...),</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">selection_glyph&nbsp;=&nbsp;None,</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">subscribed_events&nbsp;=&nbsp;[],</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">tags&nbsp;=&nbsp;[],</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">view&nbsp;=&nbsp;CDSView(id='f426f027-cad1-45ac-8703-3b30c9673a0c', ...),</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">visible&nbsp;=&nbsp;True,</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">x_range_name&nbsp;=&nbsp;'default',</div></div><div class="6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe" style="display: none;"><div style="display: table-cell;"></div><div style="display: table-cell;">y_range_name&nbsp;=&nbsp;'default')</div></div></div>
+<script>
+(function() {
+  var expanded = false;
+  var ellipsis = document.getElementById("e1999574-d414-478b-aec3-33c772b697b7");
+  ellipsis.addEventListener("click", function() {
+    var rows = document.getElementsByClassName("6f6eb52e-5804-41cc-ba9b-0b3e1a0413fe");
+    for (var i = 0; i < rows.length; i++) {
+      var el = rows[i];
+      el.style.display = expanded ? "none" : "table-row";
+    }
+    ellipsis.innerHTML = expanded ? "&hellip;)" : "&lsaquo;&lsaquo;&lsaquo;";
+    expanded = !expanded;
+  });
+})();
+</script>
+
+
+
+
+Finally, we define the `callback` function for our hover tool. Basically, when we move our mouse on the figure, the callback function will obtain the current position of the mouse, then update the octopus image (according to the position of the mouse cursor).
+
+
+```python
 # callback function for hover tool
 def callback(source=s2, window=None):
     
@@ -153,3 +180,5 @@ p1.add_tools(HoverTool(tooltips=[("country", "@country")],
 output_file('octupos.html')
 show(column(p1, p2))
 ```
+
+The output interactive graph is shown in the beginning.
