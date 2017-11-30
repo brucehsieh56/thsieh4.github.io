@@ -6,6 +6,11 @@ category: DataScience
 tags: [Python, Bokeh, DataVisualization]
 ---
 
+---
+
+## Motivation
+This is a simple example using `Bokeh` to draw the image with `hovertool`.
+
 <div class="row">
   <div class="col-lg-1">
   </div>
@@ -16,8 +21,6 @@ tags: [Python, Bokeh, DataVisualization]
   </div>
 </div>
 
-## Motivation
-This is a simple example using `Bokeh` to draw the image with `hovertool`.
 
 ## Download the data
 Both of the dataset comes from [Quick Draw Dataset](https://github.com/googlecreativelab/quickdraw-dataset#the-raw-moderated-dataset).
