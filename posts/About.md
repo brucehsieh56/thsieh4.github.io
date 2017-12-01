@@ -23,16 +23,16 @@ permalink: /About
 		<h5 style="color: #088ed1;">Computer Languages</h5>
 		<li><span style="color: #00b1b3;">Python (sklearn, pandas, matplotlib, Keras, NLTK)</span></li>
 		<li><span style="color: #00b1b3;">MATLAB</span></li>
-		<li style="color: #00b1b3;">R</li>
-		<li style="color: #00b1b3;">C++ / C</li>
-		<li style="color: #00b1b3;">HTML / CSS (Bootstrap, Jekyll)</li>
+		<li><span style="color: #00b1b3;">R</span></li>
+		<li><span style="color: #00b1b3;">C++ / C</span></li>
+		<li><span style="color: #00b1b3;">HTML / CSS (Bootstrap, Jekyll)</span></li>
 	</div>
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Tools</h5>
-		<li style="color: #00b1b3;">Jupyter Notebook</li>
-		<li style="color: #00b1b3;">Github / Github pages</li>
-		<li style="color: #00b1b3;">Machintoch / Windows</li>
-		<li style="color: #00b1b3;">Microsoft Office / LibreOffice</li>
+		<li><span style="color: #00b1b3;">Jupyter Notebook</span></li>
+		<li><span style="color: #00b1b3;">Github / Github pages</span></li>
+		<li><span style="color: #00b1b3;">Machintoch / Windows</span></li>
+		<li><span style="color: #00b1b3;">Microsoft Office / LibreOffice</span></li>
 	</div>
 </div>
 
@@ -127,6 +127,12 @@ permalink: /About
 	<div class="col-12">
 		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/c5d0ccc0363038a6453c986e619618f8c859d37d" style="text-align: left;">Deep Learning in Python<span style="float: right;">Summer 2017</span></a>
+		</li>
+		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/4c33367b6b5a555877344dc9425556ba1174cea0" style="text-align: left;">Unsupervised Learning in Python<span style="float: right;">Summer 2017</span>></a>
+		</li>
+		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/9550f0b6bf8e0e390d6363a13b43c393f90b05c2" style="text-align: left;">Machine Learning with the Experts: School Budgets<span style="float: right;">Summer 2017</span>></a>
 		</li>
 	</div>
 </div>
