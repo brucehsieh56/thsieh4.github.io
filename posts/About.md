@@ -99,11 +99,11 @@ permalink: /About
 <div class="row mt-4">
 	<div class="col-12" style="text-align: center">
 		<a href="https://courses.edx.org/">
-			<img src="/figure/edx_logo.png" height="50px" style="text-align: center">
+			<img src="/figure/edx_logo.png" height="50px" style="text-align: center;">
 		</a>
 	</div>
 </div>
-<div class="row mt-2 mb-3">
+<div class="row mt-2">
 	<div class="col-12">
 	<li>
 		<a href="https://courses.edx.org/certificates/92a3d320d1fe47f78395c120b9987df8" style="text-align:left;">The Analytics Edge<span style="float:right;">Summer 2017</span></a>
@@ -115,4 +115,19 @@ permalink: /About
 </div>
 
 
+<!-- DataCampl -->
+<div class="row mt-4">
+	<div class="col-12" style="text-align: center">
+		<a href="https://www.datacamp.com/home">
+			<img src="/figure/logo_DataCamp.png" height="50px" style="text-align: center;">
+		</a>
+	</div>
+</div>
+<div class="row mt-2 mb-3">
+	<div class="col-12">
+		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/c5d0ccc0363038a6453c986e619618f8c859d37d" style="text-align: left;">Deep Learning in Python<span style="float: right;">Summer 2017</span></a>
+		</li>
+	</div>
+</div>
 
