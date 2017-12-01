@@ -21,7 +21,7 @@ permalink: /About
 <div class="row mt-2">
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Computer Languages</h5>
-		<li style="color: white;"><p style="color: #00b1b3;">Python (sklearn, pandas, matplotlib, Keras, NLTK)</p></li>
+		<li><p style="color: #00b1b3;">Python (sklearn, pandas, matplotlib, Keras, NLTK)</p></li>
 		<li style="color: #00b1b3;">MATLAB</li>
 		<li style="color: #00b1b3;">R</li>
 		<li style="color: #00b1b3;">C++ / C</li>
