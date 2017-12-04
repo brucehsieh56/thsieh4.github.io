@@ -126,13 +126,19 @@ permalink: /About
 <div class="row mt-2 mb-3">
 	<div class="col-12">
 		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/843dbd3bb9d5657555a3a4c29a34567761325ab0" style="text-align: left;">Importing Data in Python (Part 1)<span style="float: right;">Fall 2017</span></a>
+		</li>
+		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/c5d0ccc0363038a6453c986e619618f8c859d37d" style="text-align: left;">Deep Learning in Python<span style="float: right;">Summer 2017</span></a>
 		</li>
 		<li>
-			<a href="https://www.datacamp.com/statement-of-accomplishment/course/4c33367b6b5a555877344dc9425556ba1174cea0" style="text-align: left;">Unsupervised Learning in Python<span style="float: right;">Summer 2017</span>></a>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/4c33367b6b5a555877344dc9425556ba1174cea0" style="text-align: left;">Unsupervised Learning in Python<span style="float: right;">Summer 2017</span></a>
 		</li>
 		<li>
-			<a href="https://www.datacamp.com/statement-of-accomplishment/course/9550f0b6bf8e0e390d6363a13b43c393f90b05c2" style="text-align: left;">Machine Learning with the Experts: School Budgets<span style="float: right;">Summer 2017</span>></a>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/9550f0b6bf8e0e390d6363a13b43c393f90b05c2" style="text-align: left;">Machine Learning with the Experts: School Budgets<span style="float: right;">Summer 2017</span></a>
+		</li>
+		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/941f0c26cc137ff1830203547c51b11c8fe30e3d" style="text-align: left;">Intro to SQL for Data Science<span style="float: right;">Summer 2017</span></a>
 		</li>
 	</div>
 </div>

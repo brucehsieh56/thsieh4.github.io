@@ -34,8 +34,9 @@ Import the necessary packages.
 import numpy as np
 import matplotlib.pyplot as plt
 from bokeh.layouts import column
-from bokeh.models import CustomJS, ColumnDataSource, HoverTool
+from bokeh.models import CustomJS, ColumnDataSource, HoverTool, CategoricalColorMapper
 from bokeh.plotting import figure, output_file, show
+from bokeh.palettes import Viridis256
 ```
 
 
@@ -63,7 +64,6 @@ plt.matshow(img_data[-1,:].reshape(28,28))
 plt.show()
 ```
 
-
 <div class="scroll">
   <img src="/figure/2017Nov30_octupos_demo.png" alt="octupos">
 </div>
@@ -85,11 +85,11 @@ Here, `jsonlines` is the package for reading `ndjson` file.
 
 ## Draw the images
 
-The image size of each side is 28 pixels, and we choose the first 30 images for drawing.
+The image size of each side is 28 pixels, and we choose the first 50 images for drawing.
 
 
 ```python
-img_size, img_num = 28, 30
+img_size, img_num = 28, 50
 ```
 
 
@@ -98,19 +98,25 @@ img_size, img_num = 28, 30
 
 # create data points randomly in y-axis
 x = np.arange(img_num)
-y = np.random.random(size=img_num) * 10
+y = np.random.random(size=img_num) * 100
+
+# create a color mapper
+country_list = country_data[:img_num]
+color_mapper = CategoricalColorMapper(factors=np.unique(country_list), palette=Viridis256[::10])
 
 # create a `ColumnDataSource`
-s1 = ColumnDataSource(data=dict(x=x, y=y, country=country_data[:img_num]))
+s1 = ColumnDataSource(data=dict(x=x, y=y, country=country_list))
 
 # create the first figure
-p1 = figure(plot_width=350, plot_height=100, 
+p1 = figure(plot_width=350, plot_height=150,
             x_axis_location=None, y_axis_location=None,
             tools='crosshair', toolbar_location='above', 
-            title="Move Your Mouse Here")
+            title='Move Your Mouse Here')
 
 # draw the country as random data points
-cr = p1.square('x', 'y', source=s1, alpha=0.5, size=10, hover_color='olive', hover_alpha=1.0)
+cr = p1.square('x', 'y', source=s1, 
+               color=dict(field='country', transform=color_mapper),
+               alpha=0.5, size=10, hover_color='olive', hover_alpha=1.0)
 ```
 
 
