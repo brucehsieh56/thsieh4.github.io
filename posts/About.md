@@ -25,8 +25,10 @@ permalink: /About
 			<span class="badge badge-info">sklearn</span>
 			<span class="badge badge-info">pandas</span>
 			<span class="badge badge-info">matplotlib</span>
+			<span class="badge badge-info">seaborn</span>
+			<span class="badge badge-info">Bokeh</span>
 			<span class="badge badge-info">Keras</span>
-			<span class="badge badge-info">KeNLTKras</span>
+			<span class="badge badge-info">NLTK</span>
 		</li>
 		<li><span style="color: #00b1b3;">MATLAB</span></li>
 		<li><span style="color: #00b1b3;">R</span></li>

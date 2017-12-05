@@ -4,7 +4,7 @@ title: Unix Shell Command
 permalink: /shell_command
 ---
 
-## Shortcut for Shell Command
+<h2 style="text-align: center;">Shortcut for Shell Command</h2>
 
 ### Basic Command
 - `whoami` find out the user
