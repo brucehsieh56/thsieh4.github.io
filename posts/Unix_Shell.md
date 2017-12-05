@@ -15,6 +15,7 @@ permalink: /shell
 - `cd ~` home directory
 
 ### Special Command
+
 Command	| Description
 ---		| ---
 `~`		| the shortcut for your home directory
@@ -32,7 +33,8 @@ Command	| Description
 
 
 ### Look at data
-Command	| Example 				| Description | 
+
+Command	| Example 				| Description
 ---		| ---					| ---
 `cat`	| `cat this_file.txt`	| print out the contents of the file `this_file.txt`.
 `less`	| `less this_file.txt`	| print out the *few* contents of the file `this_file.txt`.
@@ -40,7 +42,8 @@ Command	| Example 				| Description |
 `head`  | `head -n 10 this_file.txt`| display the first **10** lines of the file `this_file.txt`.
 
 ### Work with data
-Command	| Example 				| Description | 
+
+Command	| Example 				| Description
 ---		| ---					| ---
 `cut`	| `cut -d , -f 2 this_data.csv` | select the second **column** (**field**) of the data `this_data.csv` using **delimiter** `,`.
 `grep`	| `grep hello this_data.csv`	| print out the lines that contain the word `hello` in the file `this_data.csv`.
