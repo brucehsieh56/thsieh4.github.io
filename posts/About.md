@@ -21,7 +21,15 @@ permalink: /About
 <div class="row mt-2">
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Computer Languages</h5>
-		<li><span style="color: #00b1b3;">Python (sklearn, pandas, matplotlib, Keras, NLTK)</span></li>
+		<li><span style="color: #00b1b3;">Python</span>
+			<div class="progress">
+				<div class="progress-bar bg-secondary" style="width:20%">sklearn</div>
+				<div class="progress-bar bg-secondary" style="width:20%">pandas</div>
+				<div class="progress-bar bg-secondary" style="width:20%">matplotlib</div>
+				<div class="progress-bar bg-secondary" style="width:20%">Keras</div>
+				<div class="progress-bar bg-secondary" style="width:20%">NLTK</div>
+			</div>
+		</li>
 		<li><span style="color: #00b1b3;">MATLAB</span></li>
 		<li><span style="color: #00b1b3;">R</span></li>
 		<li><span style="color: #00b1b3;">C++ / C</span></li>
