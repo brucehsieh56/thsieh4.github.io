@@ -40,8 +40,8 @@ blockquote .p { font-family: "Courier", Courier, monospace;}
 
 /* Table properties */
 table, th, td, tr {
-    font-size: 12px;
-    text-align: right;
+    /*font-size: 12px;*/
+    /*text-align: right;*/
     vertical-align: center;
     padding: 2px;}
 
