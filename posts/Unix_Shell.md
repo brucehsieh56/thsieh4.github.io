@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Unix Shell Command
-permalink: /shell
+permalink: /shell_command
 ---
 
 ## Shortcut for Shell Command
@@ -36,18 +36,19 @@ Command	| Description
 
 Command	| Example 				| Description
 ---		| ---					| ---
-`cat`	| `cat this_file.txt`	| print out the contents of the file `this_file.txt`.
-`less`	| `less this_file.txt`	| print out the *few* contents of the file `this_file.txt`.
-`head` 	| `head this_file.txt`	| display the first few lines of the file `this_file.txt`.
-`head`  | `head -n 10 this_file.txt`| display the first **10** lines of the file `this_file.txt`.
+`cat`	| `cat file1.txt`		| print out the contents of the file `file1.txt`.
+`less`	| `less file1.txt`		| print out the *few* contents of the file `file1.txt`.
+`head` 	| `head file1.txt`		| display the first few lines of the file `file1.txt`.
+`head`  | `head -n 10 file1.txt`| display the first **10** lines of the file `file1.txt`.
+
 
 ### Work with data
 
-Command	| Example 				| Description
----		| ---					| ---
-`cut`	| `cut -d , -f 2 this_data.csv` | select the second **column** (**field**) of the data `this_data.csv` using **delimiter** `,`.
-`grep`	| `grep hello this_data.csv`	| print out the lines that contain the word `hello` in the file `this_data.csv`.
-`grep`	| `grep -v hello this_data.csv`	| print out the lines that **do not** contain the word `hello` in the file `this_data.csv`.
-`grep`	| `grep -c hello this_data.csv`	| count how many lines that contain the word `hello` in the file `this_data.csv`.
-`paste`	| `paste -d , this_data.csv that_data.csv` | combine `this_data.csv` with `that_data.csv` using **delimiter** `,`.
+Command	| Example 					| Description
+---		| ---						| ---
+`cut`	| `cut -d , -f 2 data1.csv` | select the 2nd **column** (**field**) of `data1.csv` with **delimiter** `,`.
+`grep`	| `grep hello data1.csv`	| print out the lines that contain the word `hello` in `data1.csv`.
+`grep`	| `grep -v hello data1.csv`	| print out the lines that **do not** contain the word `hello` in `data1.csv`.
+`grep`	| `grep -c hello data1.csv`	| count how many lines that contain the word `hello` in `data1.csv`.
+`paste`	| `paste -d , data1.csv data2.csv` | combine `data1.csv` with `data2.csv` by inserting **delimiter** `,`.
 
