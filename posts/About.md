@@ -22,13 +22,11 @@ permalink: /About
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Computer Languages</h5>
 		<li><span style="color: #00b1b3;">Python</span>
-			<div class="progress">
-				<div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">sklearn</div>
-				<div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">pandas</div>
-				<div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">matplotlib</div>
-				<div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">Keras</div>
-				<div class="progress-bar progress-bar-striped bg-secondary" style="width:20%">NLTK</div>
-			</div>
+			<span class="badge badge-info">sklearn</span>
+			<span class="badge badge-info">pandas</span>
+			<span class="badge badge-info">matplotlib</span>
+			<span class="badge badge-info">Keras</span>
+			<span class="badge badge-info">KeNLTKras</span>
 		</li>
 		<li><span style="color: #00b1b3;">MATLAB</span></li>
 		<li><span style="color: #00b1b3;">R</span></li>
@@ -38,6 +36,7 @@ permalink: /About
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Tools</h5>
 		<li><span style="color: #00b1b3;">Jupyter Notebook</span></li>
+		<li><span style="color: #00b1b3;">Shell</span></li>
 		<li><span style="color: #00b1b3;">Github / Github pages</span></li>
 		<li><span style="color: #00b1b3;">Machintoch / Windows</span></li>
 		<li><span style="color: #00b1b3;">Microsoft Office / LibreOffice</span></li>
