@@ -27,7 +27,7 @@ Welcome to my website. I'm Bruce, I'd like to share my interesting experience in
           <a href="https://github.com/thsieh4/CSC522_project"><h4>Spotify Top 200 Tracks Prediction</h4></a>
           <p style="color:#f4f4f4; text-align:center;">A binary classifier capable of predicting whether a song will be a hit on Spotify.</p>
           <div class="progress mb-3">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:95%">95%</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:100%">100%</div>
           </div>
           <h6 class="fixed-bottom">
             <i class="material-icons md-16">local_offer</i>
@@ -38,6 +38,8 @@ Welcome to my website. I'm Bruce, I'd like to share my interesting experience in
             <span class="badge badge-success">Python</span>
             <span class="badge badge-info">scikit-learn</span>
             <span class="badge badge-info">pandas</span>
+            <span class="badge badge-info">matplotlib</span>
+            <span class="badge badge-info">seaborn</span>
           </h6>
         </div>
       </div>  
