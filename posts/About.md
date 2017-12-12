@@ -49,7 +49,7 @@ permalink: /About
 <!-- CERTIFICATIONS -->
 <div class="row mt-4">
 	<div class="col-12">
-		<h3 style="color: white; text-align: center;">CERTIFICATIONS / ACHIEVEMENTS</h3>
+		<h3 style="color: white; text-align: center;">CERTIFICATIONS / ACCOMPLISHMENTS</h3>
 		<p style="color: #088ed1; text-align: center;">I am a motivated self-learner and have accomplished the following online courses:</p>
 	</div>
 </div>
@@ -134,6 +134,9 @@ permalink: /About
 </div>
 <div class="row mt-2">
 	<div class="col-12">
+		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/552000f800b43bded72b68cae5c6047202a182aa" style="text-align: left;">Network Analysis in Python (Part 1)<span style="float: right;">Winter 2017</span></a>
+		</li>
 		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/843dbd3bb9d5657555a3a4c29a34567761325ab0" style="text-align: left;">Importing Data in Python (Part 1)<span style="float: right;">Fall 2017</span></a>
 		</li>
