@@ -132,7 +132,7 @@ permalink: /About
 		</a>
 	</div>
 </div>
-<div class="row mt-2 mb-3">
+<div class="row mt-2">
 	<div class="col-12">
 		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/843dbd3bb9d5657555a3a4c29a34567761325ab0" style="text-align: left;">Importing Data in Python (Part 1)<span style="float: right;">Fall 2017</span></a>
@@ -152,3 +152,17 @@ permalink: /About
 	</div>
 </div>
 
+
+<!-- SoloLearn -->
+<div class="row mt-4">
+	<div class="col-12" style="text-align: center;">
+		<a href="https://www.sololearn.com/images/fb-story-icon.jpg">
+			<img src="https://www.sololearn.com/images/fb-story-icon.jpg">
+		</a>
+	</div>
+</div>
+<div class="row mt-2 mb-3">
+	<li>
+		<a href="https://www.sololearn.com/Certificate/1024-3944609/pdf/" style="text-align: left;">JavaScript Tutorial<span style="float: right;">Winter 2017</span></a>
+	</li>
+</div>
