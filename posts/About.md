@@ -156,13 +156,15 @@ permalink: /About
 <!-- SoloLearn -->
 <div class="row mt-4">
 	<div class="col-12" style="text-align: center;">
-		<a href="https://www.sololearn.com/images/fb-story-icon.jpg">
-			<img src="https://www.sololearn.com/images/fb-story-icon.jpg" height="50px" style="text-align: center;">
+		<a href="https://www.sololearn.com/">
+			<img src="/figure/logo_soloLearn.png" height="50px" style="text-align: center;">
 		</a>
 	</div>
 </div>
 <div class="row mt-2 mb-3">
-	<li>
-		<a href="https://www.sololearn.com/Certificate/1024-3944609/pdf/" style="text-align: left;">JavaScript Tutorial<span style="float: right;">Winter 2017</span></a>
-	</li>
+	<div class="col-12">
+		<li>
+			<a href="https://www.sololearn.com/Certificate/1024-3944609/pdf/" style="text-align: left;">JavaScript Tutorial<span style="float: right;">Winter 2017</span></a>
+		</li>
+	</div>
 </div>
