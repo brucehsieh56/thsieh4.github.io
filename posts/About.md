@@ -157,7 +157,7 @@ permalink: /About
 <div class="row mt-4">
 	<div class="col-12" style="text-align: center;">
 		<a href="https://www.sololearn.com/images/fb-story-icon.jpg">
-			<img src="https://www.sololearn.com/images/fb-story-icon.jpg">
+			<img src="https://www.sololearn.com/images/fb-story-icon.jpg" height="50px" style="text-align: center;">
 		</a>
 	</div>
 </div>
