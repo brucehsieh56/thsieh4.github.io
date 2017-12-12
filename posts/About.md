@@ -33,7 +33,7 @@ permalink: /About
 		<li><span style="color: #00b1b3;">MATLAB</span></li>
 		<li><span style="color: #00b1b3;">R</span></li>
 		<li><span style="color: #00b1b3;">C++ / C</span></li>
-		<li><span style="color: #00b1b3;">HTML / CSS (Bootstrap, Jekyll)</span></li>
+		<li><span style="color: #00b1b3;">HTML / CSS / JavaScript (Bootstrap, Jekyll)</span></li>
 	</div>
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Tools</h5>
