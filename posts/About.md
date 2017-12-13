@@ -135,6 +135,9 @@ permalink: /About
 <div class="row mt-2">
 	<div class="col-12">
 		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/d6c3e83a1a7e619b51224f0b88ee9dd7fee98bf0" style="text-align: left;">Introduction to Databases in Python<span style="float: right;">Winter 2017</span></a>
+		</li>
+		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/552000f800b43bded72b68cae5c6047202a182aa" style="text-align: left;">Network Analysis in Python (Part 1)<span style="float: right;">Winter 2017</span></a>
 		</li>
 		<li>
