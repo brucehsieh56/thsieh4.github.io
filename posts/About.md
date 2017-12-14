@@ -155,31 +155,56 @@ permalink: /About
 					<a href="https://www.datacamp.com/statement-of-accomplishment/course/843dbd3bb9d5657555a3a4c29a34567761325ab0" style="text-align: left;">Importing Data in Python (Part 1)</a>
 				</li>
 				<li>
-					<a href="https://www.datacamp.com/statement-of-accomplishment/course/7b0d6a185b9e560c42e1cdc2c464859ae3cd7b31" style="text-align: left;">Importing Data in Python (Part 2)</a>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/7b0d6a185b9e560c42e1cdc2c464859ae3cd7b31" style="text-align: left;">Importing Data in Python (Part 2)</a><span style="float: right;"><a href="https://www.datacamp.com/courses/importing-data-in-python-part-2">Course Description</a></span>
 				</li>
 				<li>
-					<a href="https://www.datacamp.com/statement-of-accomplishment/course/d6c3e83a1a7e619b51224f0b88ee9dd7fee98bf0" style="text-align: left;">Introduction to Databases in Python</a><span style="float: right;"><a href="https://www.datacamp.com/courses/importing-data-in-python-part-2">Course Link</a></span>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/d57ef00e5bbf31102f846ad578f19a300cbb254a" style="text-align: left;">Cleaning Data in Python</a><span style="float: right;"><a href="https://www.datacamp.com/courses/cleaning-data-in-python">Course Description</a></span>
 				</li>
-		<li>
-			<a href="https://www.datacamp.com/statement-of-accomplishment/course/552000f800b43bded72b68cae5c6047202a182aa" style="text-align: left;">Network Analysis in Python (Part 1)<span style="float: right;">Winter 2017</span></a>
-		</li>
-		<li>
-			<a href="https://www.datacamp.com/statement-of-accomplishment/course/843dbd3bb9d5657555a3a4c29a34567761325ab0" style="text-align: left;">Importing Data in Python (Part 1)<span style="float: right;">Fall 2017</span></a>
-		</li>
-		<li>
-			<a href="https://www.datacamp.com/statement-of-accomplishment/course/c5d0ccc0363038a6453c986e619618f8c859d37d" style="text-align: left;">Deep Learning in Python<span style="float: right;">Summer 2017</span></a>
-		</li>
-		<li>
-			<a href="https://www.datacamp.com/statement-of-accomplishment/course/4c33367b6b5a555877344dc9425556ba1174cea0" style="text-align: left;">Unsupervised Learning in Python<span style="float: right;">Summer 2017</span></a>
-		</li>
-		<li>
-			<a href="https://www.datacamp.com/statement-of-accomplishment/course/9550f0b6bf8e0e390d6363a13b43c393f90b05c2" style="text-align: left;">Machine Learning with the Experts: School Budgets<span style="float: right;">Summer 2017</span></a>
-		</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/02a219d1ac7ec3f84b55dafdbe5d01f6f313fc9c" style="text-align: left;">pandas Foundations</a><span style="float: right;"><a href="https://www.datacamp.com/courses/pandas-foundations">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/a0822b8fd067f1a9fbf417b193e163791eca0925" style="text-align: left;">Manipulating DataFrames with pandas</a><span style="float: right;"><a href="https://www.datacamp.com/courses/manipulating-dataframes-with-pandas">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/a89cf4b4f59350b91d16073463c678dafdc636ae" style="text-align: left;">Merging DataFrames with pandas</a><span style="float: right;"><a href="https://www.datacamp.com/courses/merging-dataframes-with-pandas">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/d6c3e83a1a7e619b51224f0b88ee9dd7fee98bf0" style="text-align: left;">Introduction to Databases in Python</a><span style="float: right;"><a href="https://www.datacamp.com/courses/introduction-to-relational-databases-in-python">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/60d2e97592af9e1da5ef1e38291edfce4c9bc2b1" style="text-align: left;">Introduction to Data Visualization with Python</a><span style="float: right;"><a href="https://www.datacamp.com/courses/introduction-to-data-visualization-with-python">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/45c6fc2c69c036bc3b08c3468377396fd9b38899" style="text-align: left;">Interactive Data Visualization with Bokeh</a><span style="float: right;"><a href="https://www.datacamp.com/courses/interactive-data-visualization-with-bokeh">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/b3b20cdc77583934289f163e3f9bb6ca8b07c057" style="text-align: left;">Statistical Thinking in Python (Part 1)</a><span style="float: right;"><a href="https://www.datacamp.com/courses/statistical-thinking-in-python-part-1">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/38f86efe8a37dab66acec2cf26d27ff774573627" style="text-align: left;">Statistical Thinking in Python (Part 2)</a><span style="float: right;"><a href="https://www.datacamp.com/courses/statistical-thinking-in-python-part-2">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/864123b9af721d26a8c8729950cb3e2c60a4e343" style="text-align: left;">Supervised Learning with scikit-learn</a><span style="float: right;"><a href="https://www.datacamp.com/courses/supervised-learning-with-scikit-learn">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/9550f0b6bf8e0e390d6363a13b43c393f90b05c2" style="text-align: left;">Machine Learning with the Experts: School Budgets</a><span style="float: right;"><a href="https://www.datacamp.com/courses/machine-learning-with-the-experts-school-budgets">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/4c33367b6b5a555877344dc9425556ba1174cea0" style="text-align: left;">Unsupervised Learning in Python</a><span style="float: right;"><a href="https://www.datacamp.com/courses/unsupervised-learning-in-python">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/c5d0ccc0363038a6453c986e619618f8c859d37d" style="text-align: left;">Deep Learning in Python</a><span style="float: right;"><a href="https://www.datacamp.com/courses/deep-learning-in-python">Course Description</a></span>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/552000f800b43bded72b68cae5c6047202a182aa" style="text-align: left;">Network Analysis in Python (Part 1)</a><span style="float: right;"><a href="https://www.datacamp.com/courses/network-analysis-in-python-part-1">Course Description</a></span>
+				</li>
+			</ol>
+		</div>
 		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/941f0c26cc137ff1830203547c51b11c8fe30e3d" style="text-align: left;">Intro to SQL for Data Science<span style="float: right;">Summer 2017</span></a>
 		</li>
-			</ol>
-		</div>
+
 	</div>
 </div>
 
