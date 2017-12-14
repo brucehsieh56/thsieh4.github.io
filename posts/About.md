@@ -138,12 +138,28 @@ permalink: /About
 			<a href="https://www.datacamp.com/statement-of-accomplishment/track/7e20005bfd5326d75d30edda9661e46e9579f7b5" style="text-align: left;">Data Scientist with Python Track<span style="float: right;">Winter 2017</span></a>
 		</li>
 		<div class="container">
-			<li>
-				<a href="https://www.datacamp.com/statement-of-accomplishment/course/578e08aa110e94cbb9766bbe801f8ce43afff99d" style="text-align: left;">Intro to Python for Data Science</a>
-			</li>
-			<li>
-				<a href="https://www.datacamp.com/statement-of-accomplishment/course/d6c3e83a1a7e619b51224f0b88ee9dd7fee98bf0" style="text-align: left;">Introduction to Databases in Python<span class="badge">Winter 2017</span></a>
-			</li>
+			<ol>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/578e08aa110e94cbb9766bbe801f8ce43afff99d" style="text-align: left;">Intro to Python for Data Science</a>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/5962361cb34d8ee02c210a9fed5c5c623b9838b5" style="text-align: left;">Intermediate Python for Data Science</a>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/c266424d8fb42dec744a312daa55ef6fa6d91a67" style="text-align: left;">Python Data Science Toolbox (Part 1)</a>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/fef84eff554b4e52c0db4f4bb53457899b3d7e28" style="text-align: left;">Python Data Science Toolbox (Part 2)</a>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/843dbd3bb9d5657555a3a4c29a34567761325ab0" style="text-align: left;">Importing Data in Python (Part 1)</a>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/7b0d6a185b9e560c42e1cdc2c464859ae3cd7b31" style="text-align: left;">Importing Data in Python (Part 2)</a>
+				</li>
+				<li>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/d6c3e83a1a7e619b51224f0b88ee9dd7fee98bf0" style="text-align: left;">Introduction to Databases in Python</a><span style="float: right;"><a href="https://www.datacamp.com/courses/importing-data-in-python-part-2">Course Link</a></span>
+				</li>
 		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/552000f800b43bded72b68cae5c6047202a182aa" style="text-align: left;">Network Analysis in Python (Part 1)<span style="float: right;">Winter 2017</span></a>
 		</li>
@@ -162,6 +178,7 @@ permalink: /About
 		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/941f0c26cc137ff1830203547c51b11c8fe30e3d" style="text-align: left;">Intro to SQL for Data Science<span style="float: right;">Summer 2017</span></a>
 		</li>
+			</ol>
 		</div>
 	</div>
 </div>
