@@ -140,10 +140,10 @@ permalink: /About
 		<div class="container">
 			<ol>
 				<li>
-					<a href="https://www.datacamp.com/statement-of-accomplishment/course/578e08aa110e94cbb9766bbe801f8ce43afff99d" style="text-align: left;">Intro to Python for Data Science</a><span style="float: right;">|<a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Course link</a></span>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/578e08aa110e94cbb9766bbe801f8ce43afff99d" style="text-align: left;">Intro to Python for Data Science</a><span style="float: left;"> | <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science">Course link</a></span>
 				</li>
 				<li>
-					<a href="https://www.datacamp.com/statement-of-accomplishment/course/5962361cb34d8ee02c210a9fed5c5c623b9838b5" style="text-align: left;">Intermediate Python for Data Science</a>
+					<a href="https://www.datacamp.com/statement-of-accomplishment/course/5962361cb34d8ee02c210a9fed5c5c623b9838b5" style="text-align: left;">Intermediate Python for Data Science</a><span style="float: left; color: white;"> / <a href="https://www.datacamp.com/courses/intermediate-python-for-data-science">Course link</a></span>
 				</li>
 				<li>
 					<a href="https://www.datacamp.com/statement-of-accomplishment/course/c266424d8fb42dec744a312daa55ef6fa6d91a67" style="text-align: left;">Python Data Science Toolbox (Part 1)</a>
