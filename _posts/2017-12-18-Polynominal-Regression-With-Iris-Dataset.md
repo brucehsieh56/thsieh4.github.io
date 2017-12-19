@@ -1,18 +1,15 @@
 ---
 layout: post
-title: Linear Regression with Polynominal Features
+title: Polynominal Regression with Iris Dataset
 date: 2017-12-18
 category: DataScience
 tags: [Python, Bokeh, DataVisualization, LinearRegression]
 ---
 
 
+
+
 ---
-
-## Motivation
-This is a short example.
-
-
 
 <div class="row">
   <div class="col-lg-1">
@@ -24,20 +21,30 @@ This is a short example.
   </div>
 </div>
 
-https://en.wikipedia.org/wiki/Polynomial_regression
+---
+
+## Description
+This is a short example using [`polyfit`](https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.polyfit.html) in `Numpy` to illustrate the idea of [polynominal regression](https://en.wikipedia.org/wiki/Polynomial_regression).
 
 
-Import the usual packages in Data Science.
+---
+
+## Dataset
+The dataset we used here is the [Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) provided by [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/iris).
+
+---
+
+## Read the data
+
+The `read_csv` function in `pandas` can be used directly to read the Iris dataset from the [web](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). Let's read the data.
 
 
 ```python
+# import packages
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-```
 
-
-```python
 # read data
 iris = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data',
                    names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
@@ -121,7 +128,7 @@ iris.head()
 
 
 
-The original data has `Iris-` strings in `species` column. Let's remove these strings.
+The original data has strings `Iris-` in the `species` column. Let's remove these strings.
 
 
 ```python
@@ -275,28 +282,24 @@ iris.corr()
 
 **petal_length** is highly positive correlated with **petal_width** (**0.962757**), so let's try to use **petal_length** to predict **petal_width**.
 
-
-```python
-X, y = iris['petal_length'], iris['petal_width']
-```
-
-Here, **X** is our independent variable and **y** is the dependent variable.
-
 ---
 
-Although `scikit-learn` has a function `PolynomialFeatures` to generate polynominal features with various degrees, we use [`polyfit`](https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.polyfit.html) in `Numpy` here.
+## Polynominal fit
 
----
-
-
-$$e^x=\sum_{i=0}^\infty \frac{1}{i!}x^i$$
-
-
-For degree 1, we use the equation
+Here, we would like to predict the **petal_width** based on the value of **petal_length**. Their relationship can be modeled mathematically as
 
 $$y=w_1x+w_0$$
 
-to fit the data.
+where
+
+- $y$ is the **petal_width** to be predicted.
+- $x$ is the **petal_length** we used to predict $y$.
+- $w_1$ and $w_0$ are the coefficients we want to find out by fitting.
+
+
+This is the polynominal regression with degree 1.
+
+---
 
 For degree 2, we use the equation
 
@@ -304,7 +307,7 @@ $$y=w_2x^2+w_1x+w_0$$
 
 to fit the data.
 
-Finally, for degree n, we use the equation
+Similarly, for degree n, we use the equation
 
 $$y=w_nx^n+...+w_2x^2+w_1x+w_0$$
 
@@ -316,12 +319,15 @@ Let's use `polyfit` with degree 3
 
 $$y=w_3x^3+w_2x^2+w_1x+w_0$$
 
-in `Numpy` as a simple example.
+as a simple example.
 
 
 ```python
-# fit a polynomial equation with degree 3 to (X, y)
-poly_eq = np.polyfit(X, y, deg=3)
+# get x and y
+x, y = iris['petal_length'], iris['petal_width']
+
+# fit a polynomial equation with degree 3 to (x, y)
+poly_eq = np.polyfit(x, y, deg=3)
 poly_eq
 ```
 
@@ -332,17 +338,31 @@ poly_eq
 
 
 
-The above output means the fitted line
+The above output means
+
+- $w_3$ = -0.02633791
+- $w_2$ = 0.31129374
+- $w_1$ = -0.66987598
+- $w_0$ = 0.63408549
 
 $$y=-0.02633791x^3+0.31129374x^2-0.66987598x+0.63408549$$
 
+---
+
+Let's plot the results.
+
 
 ```python
+# specify the x value and get the y value
 x_vec = np.linspace(0, 7, 50)
 y_vec = np.poly1d(poly_eq)(x_vec)
 
-plt.figure(figsize=(10,4))
-plt.plot(X, y, 'bo', x_vec, y_vec, 'k-')
+# plot
+plt.figure(figsize=(8,5))
+plt.plot(x, y, 'bo', x_vec, y_vec, 'k-')
+plt.title('Polynominal Regression with degree 3')
+plt.xlabel('Petal length (cm)')
+plt.ylabel('Petal width (cm)')
 plt.margins(.02)
 plt.show()
 ```
@@ -353,20 +373,35 @@ plt.show()
 </div>
 
 
+## Polynominal fit with different degrees
+Finally, we use `Bokeh` to draw an interactive graph for Polynominal fit with various degress.
+
+
 ```python
+# specify the x values
 x_list = np.linspace(0.5, 7.5, 50)
 y_list = []
 
-for deg in range(1, 15):
+# get the y values
+for deg in range(1, 11):
     
-    poly_eq = np.poly1d(np.polyfit(X, y, deg=deg))
+    poly_eq = np.poly1d(np.polyfit(x, y, deg=deg))
     
     y_list.append(poly_eq(x_list))
-    
+
+# create a `DataFrame`     
 df = pd.DataFrame(y_list).T
-df.columns = ['degree_' + str(i) for i in range(1,15)]
+
+# add column names
+df.columns = ['degree_' + str(i) for i in range(1,11)]
+
+# add x values for plotting
 df['x'] = x_list
+
+# add one default column y for plotting
 df['y'] = df['degree_3']
+
+# have a look
 df.head()
 ```
 
@@ -401,10 +436,6 @@ df.head()
       <th>degree_8</th>
       <th>degree_9</th>
       <th>degree_10</th>
-      <th>degree_11</th>
-      <th>degree_12</th>
-      <th>degree_13</th>
-      <th>degree_14</th>
       <th>x</th>
       <th>y</th>
     </tr>
@@ -422,10 +453,6 @@ df.head()
       <td>-1.476037</td>
       <td>-0.114018</td>
       <td>0.732161</td>
-      <td>-3.290226</td>
-      <td>7.023703</td>
-      <td>29.367908</td>
-      <td>-56.340474</td>
       <td>0.500000</td>
       <td>0.373679</td>
     </tr>
@@ -441,10 +468,6 @@ df.head()
       <td>-0.623480</td>
       <td>0.000813</td>
       <td>0.361275</td>
-      <td>-1.189472</td>
-      <td>2.412507</td>
-      <td>9.694638</td>
-      <td>-15.723855</td>
       <td>0.642857</td>
       <td>0.325101</td>
     </tr>
@@ -460,10 +483,6 @@ df.head()
       <td>-0.149065</td>
       <td>0.090450</td>
       <td>0.216253</td>
-      <td>-0.261084</td>
-      <td>0.712548</td>
-      <td>2.521125</td>
-      <td>-3.108927</td>
       <td>0.785714</td>
       <td>0.287155</td>
     </tr>
@@ -479,10 +498,6 @@ df.head()
       <td>0.087223</td>
       <td>0.150551</td>
       <td>0.178794</td>
-      <td>0.091303</td>
-      <td>0.233644</td>
-      <td>0.465371</td>
-      <td>-0.145931</td>
       <td>0.928571</td>
       <td>0.259382</td>
     </tr>
@@ -498,10 +513,6 @@ df.head()
       <td>0.186174</td>
       <td>0.186229</td>
       <td>0.184248</td>
-      <td>0.194866</td>
-      <td>0.172405</td>
-      <td>0.134942</td>
-      <td>0.226242</td>
       <td>1.071429</td>
       <td>0.241319</td>
     </tr>
@@ -510,6 +521,8 @@ df.head()
 </div>
 
 
+
+Draw the interactive plot.
 
 
 ```python
@@ -521,14 +534,14 @@ from bokeh.models import ColumnDataSource, CustomJS, Slider, HoverTool, Categori
 # 1) Initialize the figure
 # customize hover tool
 hover = HoverTool(mode='mouse', 
-                  tooltips=[('species name', '@species'),
+                  tooltips=[('species', '@species'),
                             ('petal length (cm)', '@petal_length'),
                             ('petal width (cm)', '@petal_width'),
                             ('sepal length (cm)', '@sepal_length'),
                             ('sepal width (cm)', '@sepal_width')])
 
 # create a figure
-plot = figure(plot_width=400, plot_height=400, title='Polynominal Fit',
+plot = figure(plot_width=350, plot_height=350, title='Polynominal Fit',
               tools=[hover, 'pan', 'wheel_zoom', 'reset'], toolbar_location='above')
 
 
@@ -586,3 +599,5 @@ layout = column(widgetbox(slider), plot)
 output_file('20171218_polyfit.html')
 show(layout)
 ```
+
+The final interactive plot is shown in the beginning.
