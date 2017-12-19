@@ -292,8 +292,9 @@ $$y=w_1x+w_0$$
 
 where
 
-<li>$y$ is the **petal_width** to be predicted.</li>
-- $x$ is the **petal_length** we used to predict $y$.
+- \(y\) is the **petal_width** to be predicted.
+- \(y\) is the **petal_width** to be predicted.
+- $$x$$ is the **petal_length** we used to predict $y$.
 - $w_1$ and $w_0$ are the coefficients we want to find out by fitting.
 
 
