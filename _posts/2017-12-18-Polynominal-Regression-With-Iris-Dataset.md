@@ -292,7 +292,7 @@ $$y=w_1x+w_0$$
 
 where
 
-- $y$ is the **petal_width** to be predicted.
+<li>$y$ is the **petal_width** to be predicted.</li>
 - $x$ is the **petal_length** we used to predict $y$.
 - $w_1$ and $w_0$ are the coefficients we want to find out by fitting.
 
@@ -301,13 +301,7 @@ This is the polynominal regression with degree 1.
 
 ---
 
-For degree 2, we use the equation
-
-$$y=w_2x^2+w_1x+w_0$$
-
-to fit the data.
-
-Similarly, for degree n, we use the equation
+In general, for degree n, we will use the equation
 
 $$y=w_nx^n+...+w_2x^2+w_1x+w_0$$
 
@@ -315,11 +309,9 @@ to fit the data.
 
 ---
 
-Let's use `polyfit` with degree 3
+As a simple example, let's use `polyfit` with degree 3
 
 $$y=w_3x^3+w_2x^2+w_1x+w_0$$
-
-as a simple example.
 
 
 ```python
