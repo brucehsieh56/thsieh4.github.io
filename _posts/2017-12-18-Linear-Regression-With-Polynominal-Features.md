@@ -12,6 +12,8 @@ tags: [Python, Bokeh, DataVisualization, LinearRegression]
 ## Motivation
 This is a short example.
 
+
+
 <div class="row">
   <div class="col-lg-1">
   </div>
