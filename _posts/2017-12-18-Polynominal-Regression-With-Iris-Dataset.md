@@ -292,10 +292,9 @@ $$y=w_1x+w_0$$
 
 where
 
-- \(y\) is the **petal_width** to be predicted.
-- \(y\) is the **petal_width** to be predicted.
-- $$x$$ is the **petal_length** we used to predict $y$.
-- $w_1$ and $w_0$ are the coefficients we want to find out by fitting.
+- $$y$$ is the **petal_width** to be predicted.
+- $$x$$ is the **petal_length** we used to predict $$y$$.
+- $$w_1$$ and $$w_0$$ are the coefficients we want to find out by fitting.
 
 
 This is the polynominal regression with degree 1.
@@ -333,10 +332,10 @@ poly_eq
 
 The above output means
 
-- $w_3$ = -0.02633791
-- $w_2$ = 0.31129374
-- $w_1$ = -0.66987598
-- $w_0$ = 0.63408549
+- $$w_3$$ = -0.02633791
+- $$w_2$$ = 0.31129374
+- $$w_1$$ = -0.66987598
+- $$w_0$$ = 0.63408549
 
 $$y=-0.02633791x^3+0.31129374x^2-0.66987598x+0.63408549$$
 
