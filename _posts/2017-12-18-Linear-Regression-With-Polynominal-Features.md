@@ -373,7 +373,7 @@ df.head()
 
 
 
-<div>
+<div class="scroll">
 <style>
     .dataframe thead tr:only-child th {
         text-align: right;
