@@ -3,7 +3,7 @@ layout: post
 title: Linear Regression with Polynominal Features
 date: 2017-12-18
 category: DataScience
-tags: [Python, Bokeh, DataVisualization, Linear Regression]
+tags: [Python, Bokeh, DataVisualization, LinearRegression]
 ---
 
 
