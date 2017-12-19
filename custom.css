@@ -45,7 +45,7 @@ table, th, td, tr {
     vertical-align: center;
     padding: 2px;}
 
-.dataframe tbody tr th td { text-align: right;}
+dataframe tbody tr th td { text-align: right;}
 
 tr:hover { background-color: #d4ecfe; }
 

@@ -3,7 +3,7 @@ layout: post
 title: Polynominal Regression with Iris Dataset
 date: 2017-12-18
 category: DataScience
-tags: [Python, Bokeh, DataVisualization, LinearRegression]
+tags: [Regression, Python, Bokeh, DataVisualization]
 ---
 
 
