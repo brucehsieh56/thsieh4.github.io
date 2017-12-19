@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Map of Starbucks Locations Worldwide
@@ -433,7 +432,7 @@ df.head()
 </table>
 </div>
 
-
+---
 
 ## Reduce the size of data 
 Convert the data type of `x` and `y` from `float64` to `float32` for data reduction.
