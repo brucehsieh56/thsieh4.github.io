@@ -222,6 +222,7 @@ starbucks.head()
 
     .dataframe tbody tr th {
         vertical-align: top;
+        font-size: 7px;
     }
 </style>
 <table border="1" class="dataframe">
