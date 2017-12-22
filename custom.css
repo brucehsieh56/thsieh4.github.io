@@ -45,7 +45,7 @@ blockquote .p { font-family: "Courier", Courier, monospace;}
     /*vertical-align: center;*/
     /*padding: 2px;}*/
 
-.dataframe tbody tr td th{ 
+.dataframe tbody tr td{ 
   color: blue;
   text-align: right;
   font-size: 14px;
