@@ -39,17 +39,20 @@ blockquote {
 blockquote .p { font-family: "Courier", Courier, monospace;}
 
 /* Table properties */
-table, th, td, tr {
-    font-size: 14px;
+/*table, th, td, tr {*/
+    /*font-size: 14px;*/
     /*text-align: right;*/
-    vertical-align: center;
-    padding: 2px;}
+    /*vertical-align: center;*/
+    /*padding: 2px;}*/
 
-.dataframe tbody tr th td { 
+.dataframe tbody tr td th{ 
+  color: blue;
   text-align: right;
+  font-size: 14px;
   padding: 10px;}
 
 tr:hover { background-color: #d4ecfe; }
+tr:nth-child(even) {background-color: #dddddd;}
 
 /* Icon */
 .material-icons.md-16 { font-size: 16px; }
