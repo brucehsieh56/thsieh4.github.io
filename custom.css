@@ -45,12 +45,11 @@ blockquote .p { font-family: "Courier", Courier, monospace;}
     /*vertical-align: center;*/
     /*padding: 2px;}*/
 
-table { font-family: 'Mukta Malar', sans-serif; }
-
-/*td, th { 
-  color: blue;
-  text-align: right;
-  font-size: 10px;}*/
+table { 
+  font-family: 'Mukta Malar', sans-serif;
+  font-size: 13px;
+  width: 100%;
+  padding: 5px; }
 
 /*tr:nth-child(even) {background-color: #dddddd;}*/
 tr:hover { background-color: #d4ecfe; }
