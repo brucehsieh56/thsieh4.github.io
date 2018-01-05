@@ -87,6 +87,7 @@ iris.head()
 </div>
 
 
+---
 
 ### 2. Check species
 
@@ -102,8 +103,13 @@ iris.species.unique().tolist()
     ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
 
 
+There are three distinct species **Iris-setosa**, **Iris-versicolor** and **Iris-virginica** in **species** column.
+
+
+---
 
 ### 3. Update data values
+We create a `dict` object to change the three species into **A**, **B** and **C**.
 
 
 ```python
