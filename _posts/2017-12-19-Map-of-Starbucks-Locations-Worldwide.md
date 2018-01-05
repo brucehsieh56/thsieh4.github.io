@@ -346,8 +346,6 @@ df.head()
 ```
 
 
-
-
 <div class="scroll">
 <table border="1" class="dataframe">
   <thead>

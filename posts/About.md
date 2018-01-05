@@ -21,27 +21,20 @@ permalink: /About
 <div class="row mt-2">
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Computer Languages</h5>
-		<li><span class="badge badge-success">Python</span>
-			<span class="badge badge-info">sklearn</span>
-			<span class="badge badge-info">pandas</span>
-			<span class="badge badge-info">matplotlib</span>
-			<span class="badge badge-info">seaborn</span>
-			<span class="badge badge-info">Bokeh</span>
-			<span class="badge badge-info">Keras</span>
-			<span class="badge badge-info">NLTK</span>
-		</li>
+		<li><span style="color: #00b1b3;">Python (sklearn / pandas / Numpy / matplotlib / seaborn / Bokeh / Keras / NLTK)</span></li>
 		<li><span style="color: #00b1b3;">MATLAB</span></li>
 		<li><span style="color: #00b1b3;">R</span></li>
+		<li><span style="color: #00b1b3;">PostgreSQL</span></li>
+		<li><span style="color: #00b1b3;">HTML, CSS, JavaScript (Bootstrap, Jekyll)</span></li>
 		<li><span style="color: #00b1b3;">C++ / C</span></li>
-		<li><span style="color: #00b1b3;">HTML / CSS / JavaScript (Bootstrap, Jekyll)</span></li>
 	</div>
 	<div class="col-6">
 		<h5 style="color: #088ed1;">Tools</h5>
 		<li><span style="color: #00b1b3;">Jupyter Notebook</span></li>
 		<li><span style="color: #00b1b3;"><a href="/shell_command">Shell</a></span></li>
 		<li><span style="color: #00b1b3;">Github / Github pages</span></li>
-		<li><span style="color: #00b1b3;">Machintoch / Windows</span></li>
 		<li><span style="color: #00b1b3;">Microsoft Office / LibreOffice</span></li>
+		<li><span style="color: #00b1b3;">Machintoch / Windows</span></li>
 	</div>
 </div>
 

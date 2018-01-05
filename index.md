@@ -15,6 +15,11 @@ Welcome to my website. I'm Bruce, I'd like to share my interesting experience in
   {% endfor %}
 </ul>
 
+
+# Kaggle Kernels
+- [Interactive Map of Pizza Restaurants in Python](https://www.kaggle.com/bbruce/interactive-map-of-pizza-restaurants-in-python)
+
+
 # Works
 
 <div class="row">
