@@ -1,15 +1,17 @@
 ---
 layout: post
-title: [Note] Update data in pandas DataFrame with dict() and map() functions
+title: Update data in pandas DataFrame with dict and map functions
 date: 2018-01-05
-category: Note
+category: DataScience
 tags: [Python, Note]
 ---
 
 ---
-This is a simple example to change the data values by ultilizing `dict()` and `map()` functinos in Python.
+This is a simple example to change or update the data values by ultilizing `dict()` and `map()` functinos in Python.
 
 ---
+
+### 1. Read Iris dataset
 
 
 ```python
@@ -23,6 +25,8 @@ iris = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/ir
 # have a quick look
 iris.head()
 ```
+
+
 
 
 <div class="scroll">
@@ -84,25 +88,29 @@ iris.head()
 
 
 
+### 2. Check species
+
 
 ```python
 # check distinct species of iris dataset
-iris.species.unique()
+iris.species.unique().tolist()
 ```
 
 
 
 
-    array(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'], dtype=object)
+    ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
 
 
+
+### 3. Update data values
 
 
 ```python
 # create a `dict` mapper
-dict_mapper = {'Iris-setosa': 'setosa', 
-               'Iris-versicolor': 'versicolor', 
-               'Iris-virginica': 'virginica'}
+dict_mapper = {'Iris-setosa': 'A', 
+               'Iris-versicolor': 'B', 
+               'Iris-virginica': 'C'}
 
 # update species column
 iris.species = iris.species.map(dict_mapper)
@@ -133,7 +141,7 @@ iris.head()
       <td>3.5</td>
       <td>1.4</td>
       <td>0.2</td>
-      <td>setosa</td>
+      <td>A</td>
     </tr>
     <tr>
       <th>1</th>
@@ -141,7 +149,7 @@ iris.head()
       <td>3.0</td>
       <td>1.4</td>
       <td>0.2</td>
-      <td>setosa</td>
+      <td>A</td>
     </tr>
     <tr>
       <th>2</th>
@@ -149,7 +157,7 @@ iris.head()
       <td>3.2</td>
       <td>1.3</td>
       <td>0.2</td>
-      <td>setosa</td>
+      <td>A</td>
     </tr>
     <tr>
       <th>3</th>
@@ -157,7 +165,7 @@ iris.head()
       <td>3.1</td>
       <td>1.5</td>
       <td>0.2</td>
-      <td>setosa</td>
+      <td>A</td>
     </tr>
     <tr>
       <th>4</th>
@@ -165,7 +173,7 @@ iris.head()
       <td>3.6</td>
       <td>1.4</td>
       <td>0.2</td>
-      <td>setosa</td>
+      <td>A</td>
     </tr>
   </tbody>
 </table>
@@ -173,15 +181,4 @@ iris.head()
 
 
 
-
-```python
-# check distinct species of iris dataset
-iris.species.unique()
-```
-
-
-
-
-    array(['setosa', 'versicolor', 'virginica'], dtype=object)
-
-
+**Iris-setosa**, **Iris-versicolor** and **Iris-virginica** in **species** column have been changed to **A**, **B** and **C**, respectively.
