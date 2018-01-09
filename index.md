@@ -20,6 +20,10 @@ Welcome to my website. I'm Bruce, I'd like to share my interesting experience in
 - [Interactive Map of Pizza Restaurants in Python](https://www.kaggle.com/bbruce/interactive-map-of-pizza-restaurants-in-python)
 
 
+# Notes
+- [Python VS R command](/python_vs_R)
+
+
 # Works
 
 <div class="row">
