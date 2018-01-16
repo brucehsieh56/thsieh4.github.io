@@ -131,6 +131,9 @@ permalink: /About
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/7ad712bba63e4957d292be6f8e49fba697bfef1f" style="text-align: left;">Foundations of Probability in R</a><span style="text-align: left; opacity: .3;"> | <a href="https://www.datacamp.com/courses/foundations-of-probability-in-r">course link</a></span><span style="color: #00b1b3; float: right;">Winter 2017</span>
 		</li>
 		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/547bb4467b7abfcc777d4db207bdda9188d4d68f" style="text-align: left;">Introduction to Data</a><span style="text-align: left; opacity: .3;"> | <a href="https://www.datacamp.com/courses/introduction-to-data">course link</a></span><span style="color: #00b1b3; float: right;">Winter 2017</span>
+		</li>
+		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/track/7e20005bfd5326d75d30edda9661e46e9579f7b5" style="text-align: left;">Data Scientist with Python Track<span style="float: right;">Winter 2017</span></a>
 		</li>
 		<div class="container">
