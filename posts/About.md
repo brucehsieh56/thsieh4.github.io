@@ -128,6 +128,9 @@ permalink: /About
 <div class="row mt-2">
 	<div class="col-12">
 		<li>
+			<a href="https://www.datacamp.com/statement-of-accomplishment/course/8a29ca58aa1d6c0999f13bed8d2a1f746aafb820" style="text-align: left;">Exploratory Data Analysis</a><span style="text-align: left; opacity: .3;"> | <a href="https://www.datacamp.com/courses/exploratory-data-analysis">course link</a></span><span style="color: #00b1b3; float: right;">Winter 2017</span>
+		</li>
+		<li>
 			<a href="https://www.datacamp.com/statement-of-accomplishment/course/7ad712bba63e4957d292be6f8e49fba697bfef1f" style="text-align: left;">Foundations of Probability in R</a><span style="text-align: left; opacity: .3;"> | <a href="https://www.datacamp.com/courses/foundations-of-probability-in-r">course link</a></span><span style="color: #00b1b3; float: right;">Winter 2017</span>
 		</li>
 		<li>
