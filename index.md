@@ -18,6 +18,7 @@ Welcome to my website. I'm Bruce, I'd like to share my interesting experience in
 
 # Kaggle Kernels
 - [Interactive Map of Pizza Restaurants in Python](https://www.kaggle.com/bbruce/interactive-map-of-pizza-restaurants-in-python)
+- [Austin Crash Incidents Analysis in Python](https://www.kaggle.com/bbruce/austin-crash-incidents-analysis-in-python)
 
 
 # Notes
